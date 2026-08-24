@@ -546,6 +546,1150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HD3SS215RTQR:HD3SS215RTQR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 36.83 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HD3SS215RTQR"
+				(at -15.494 33.274 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss215.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6-Gbps HDMI / DisplayPort 2:1 / 1:2 differential switch, 56-pin RTQ VQFN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HD3SS215RTQR_0_1"
+				(rectangle
+					(start -17.78 31.75)
+					(end 17.78 -54.61)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HD3SS215RTQR_1_1"
+				(text "PORT A"
+					(at -10.16 29.21 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+				(text "PORT B"
+					(at 0 -32.766 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+				(text "PORT C"
+					(at 10.16 29.21 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -41.91 0)
+					(length 2.54)
+					(name "AUX_SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 24.13 180)
+					(length 2.54)
+					(name "DC0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 21.59 180)
+					(length 2.54)
+					(name "DC0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -57.15 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 17.78 180)
+					(length 2.54)
+					(name "DC1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "DC1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 11.43 180)
+					(length 2.54)
+					(name "DC2_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 8.89 180)
+					(length 2.54)
+					(name "DC2_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "DC3_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "DC3_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "AUXC_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "AUXC_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "HPDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -17.78 0)
+					(length 2.54)
+					(name "HPDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -50.8 180)
+					(length 2.54)
+					(name "HPDB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -11.43 180)
+					(length 2.54)
+					(name "DDCCLK_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -3.81 34.29 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 0 180)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 0 180)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -44.45 180)
+					(length 2.54)
+					(name "DDCCLK_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -46.99 180)
+					(length 2.54)
+					(name "DDCDAT_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -38.1 180)
+					(length 2.54)
+					(name "AUXB_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -40.64 180)
+					(length 2.54)
+					(name "AUXB_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -13.97 180)
+					(length 2.54)
+					(name "DDCDAT_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -11.43 0)
+					(length 2.54)
+					(name "DDCCLK_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -13.97 0)
+					(length 2.54)
+					(name "DDCDAT_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 2.54)
+					(name "AUXA_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 2.54)
+					(name "AUXA_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -33.02 180)
+					(length 2.54)
+					(name "DB3_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -30.48 180)
+					(length 2.54)
+					(name "DB3_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -26.67 180)
+					(length 2.54)
+					(name "DB2_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -24.13 180)
+					(length 2.54)
+					(name "DB2_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -33.02 0)
+					(length 2.54)
+					(name "DB1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -30.48 0)
+					(length 2.54)
+					(name "DB1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -26.67 0)
+					(length 2.54)
+					(name "DB0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -24.13 0)
+					(length 2.54)
+					(name "DB0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 17.78 0 180)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -44.45 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "DA3_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "DA3_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 8.89 0)
+					(length 2.54)
+					(name "DA2_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 11.43 0)
+					(length 2.54)
+					(name "DA2_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 15.24 0)
+					(length 2.54)
+					(name "DA1_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 17.78 0)
+					(length 2.54)
+					(name "DA1_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 21.59 0)
+					(length 2.54)
+					(name "DA0_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 24.13 0)
+					(length 2.54)
+					(name "DA0_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 34.29 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -39.37 0)
+					(length 2.54)
+					(name "DX_SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -54.61 90)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_USB:USB2514B_Bi"
 			(pin_names
 				(offset 1.016)
@@ -1944,10 +3088,622 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS3USB221AQRSERQ1"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/scds300e/scds300e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Automotive ESD protected high-speed USB 2.0 1:2 multiplexer/demultiplexer switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS3USB221AQRSERQ1_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TS3USB221AQRSERQ1_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "1D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "1D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "2D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "2D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "HD3SS215RTQR:HD3SS215RTQR")
+		(at 237.49 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2599d69f-7500-44af-acf0-9b38e162a9f1")
+		(property "Reference" "U4"
+			(at 243.4433 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HD3SS215RTQR"
+			(at 243.4433 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm"
+			(at 237.49 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss215.pdf"
+			(at 237.49 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-Gbps HDMI / DisplayPort 2:1 / 1:2 differential switch, 56-pin RTQ VQFN"
+			(at 237.49 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "13"
+			(uuid "dcdf665f-c3fa-4407-9987-b9c52fee4314")
+		)
+		(pin "14"
+			(uuid "deef311e-c8a8-4e2b-ac74-f3ed9f030628")
+		)
+		(pin "16"
+			(uuid "fbd34263-86b9-42d3-823f-19cf659e1541")
+		)
+		(pin "15"
+			(uuid "a4745fcb-949c-444d-8595-30b29d125d21")
+		)
+		(pin "17"
+			(uuid "7fc10a09-673a-4419-809b-e54920d3116b")
+		)
+		(pin "18"
+			(uuid "d3e7e0c5-2b25-4c39-94cf-33fb0644e310")
+		)
+		(pin "12"
+			(uuid "a9936e79-ee9c-4e8b-91ad-4aa283f2e155")
+		)
+		(pin "11"
+			(uuid "16c7f118-0e71-4e24-b7ce-b6f33a129073")
+		)
+		(pin "10"
+			(uuid "40f38c9e-a853-484a-8f46-26f3591c0d41")
+		)
+		(pin "9"
+			(uuid "ed6e84f4-6c70-4058-9a90-3a7a28f0c4a3")
+		)
+		(pin "8"
+			(uuid "9ab3dfec-e038-4416-8073-9e658c17bfd7")
+		)
+		(pin "7"
+			(uuid "598b1968-99f6-42bb-8c18-4aa778c3f92d")
+		)
+		(pin "5"
+			(uuid "1927a6ea-1875-4579-be1d-4ff6e476bca3")
+		)
+		(pin "1"
+			(uuid "7e663618-6cfd-47f9-9e87-2925d0fbf54e")
+		)
+		(pin "19"
+			(uuid "d4cab5e8-6495-49f1-87c1-fadaaae37b66")
+		)
+		(pin "20"
+			(uuid "bfbc2e70-5517-4ac9-bdf2-d176c092e43d")
+		)
+		(pin "2"
+			(uuid "7c458172-4dea-4432-b2c4-891cce3e4c91")
+		)
+		(pin "3"
+			(uuid "e77f550d-60bd-408f-93cf-b29aa583aaa3")
+		)
+		(pin "4"
+			(uuid "05972ca3-2d5f-4eda-873c-45b3f230179a")
+		)
+		(pin "6"
+			(uuid "bcb0fbe4-4a9d-4a0e-99b0-45561f52a1b6")
+		)
+		(pin "41"
+			(uuid "81339910-34f0-4aa9-a256-e0a9cf10f048")
+		)
+		(pin "42"
+			(uuid "9053bdbd-2d5b-4ddd-a49e-5dda5b11a588")
+		)
+		(pin "43"
+			(uuid "2826484c-3091-4440-b8f5-0aebcf12dc6d")
+		)
+		(pin "46"
+			(uuid "94da6823-b6da-4f04-b87a-61780a19f2ee")
+		)
+		(pin "44"
+			(uuid "16075ab6-7e00-48f7-97bd-976c08749c08")
+		)
+		(pin "45"
+			(uuid "d95821ce-5e3d-437f-b14e-9de315296733")
+		)
+		(pin "39"
+			(uuid "2381f37c-6d0a-4ad2-a739-47f625d60a01")
+		)
+		(pin "40"
+			(uuid "a89ec3d1-59fa-4f76-9afa-7a701557d4f9")
+		)
+		(pin "38"
+			(uuid "3803f6b0-e7c4-47e6-a4bc-417f026de602")
+		)
+		(pin "37"
+			(uuid "0c7c4c95-e993-408e-8d36-e9516d148eb6")
+		)
+		(pin "36"
+			(uuid "9f0192ad-eb21-4200-b91a-bf92446ad4b4")
+		)
+		(pin "35"
+			(uuid "05039f1d-4378-4899-9006-1f44d997a1d1")
+		)
+		(pin "34"
+			(uuid "f9bfca3d-b8f0-4351-b257-7e7e72405637")
+		)
+		(pin "33"
+			(uuid "3f92abf7-5b77-43bc-903d-fd2e8b5cdcef")
+		)
+		(pin "32"
+			(uuid "a2992cd5-b2d1-4192-b037-9b0e1b74fd21")
+		)
+		(pin "31"
+			(uuid "efaea1fc-546e-41dc-ac35-535376c81bf8")
+		)
+		(pin "30"
+			(uuid "94dbf152-abe3-4ddf-a7d8-a964bb56b077")
+		)
+		(pin "29"
+			(uuid "a56d1fd5-9f92-424d-928c-ef30e0676093")
+		)
+		(pin "28"
+			(uuid "271f2fcd-b7d1-43ac-9dfe-cd4428f2147d")
+		)
+		(pin "27"
+			(uuid "efe7517d-a8bb-4950-a65d-be0792e670e8")
+		)
+		(pin "55"
+			(uuid "904b1821-481e-4d37-a573-ad99af74956d")
+		)
+		(pin "50"
+			(uuid "e9568a8d-f7f5-49e6-9b19-9f7a2ec60f42")
+		)
+		(pin "49"
+			(uuid "2d9934f4-05cc-4121-9c67-f12cf5d63401")
+		)
+		(pin "48"
+			(uuid "dbc61409-cec1-45ae-9707-efebfc5aad03")
+		)
+		(pin "47"
+			(uuid "e30d273c-553f-407a-9dfa-8a9c7156937a")
+		)
+		(pin "57"
+			(uuid "cd8777e2-99a2-4b50-a7a8-f51858264780")
+		)
+		(pin "54"
+			(uuid "d8accf91-acec-4d17-aca1-46d73508e0e3")
+		)
+		(pin "53"
+			(uuid "3718ce9f-31a1-4cca-bf32-dfe910339110")
+		)
+		(pin "56"
+			(uuid "febb0ada-3eee-4e15-ab97-6aff82c27e97")
+		)
+		(pin "52"
+			(uuid "b7da96fa-29b6-4843-8d44-658084aee087")
+		)
+		(pin "51"
+			(uuid "e5809fce-c026-424f-93cf-e5e23a2e1091")
+		)
+		(pin "21"
+			(uuid "b701942b-e21c-4190-89c9-1930b028f06f")
+		)
+		(pin "22"
+			(uuid "fac578a5-e62f-459b-aedd-c5d8c4c82cfe")
+		)
+		(pin "23"
+			(uuid "923b153a-a941-4945-9733-0d9bffde7ca3")
+		)
+		(pin "24"
+			(uuid "22249196-65b2-4790-8ca7-a0375565d65e")
+		)
+		(pin "25"
+			(uuid "772f1c37-7c3a-48f5-a519-cbe1a4645bd6")
+		)
+		(pin "26"
+			(uuid "aab07597-674c-44db-9505-1e3db7ccd3e2")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1")
+		(at 171.45 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c7dc828-a9e6-42de-bcf4-f708ace668d6")
+		(property "Reference" "U3"
+			(at 173.5933 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS3USB221AQRSERQ1"
+			(at 173.5933 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+			(at 171.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scds300e/scds300e.pdf"
+			(at 171.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive ESD protected high-speed USB 2.0 1:2 multiplexer/demultiplexer switch"
+			(at 171.45 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "8f317751-90cd-4eb2-bb01-23bcaf5c8d46")
+		)
+		(pin "8"
+			(uuid "4135f829-5df8-4d44-9c9d-35e38259d45d")
+		)
+		(pin "7"
+			(uuid "74cc0708-28f1-4cbe-a06b-70e5eb175dea")
+		)
+		(pin "6"
+			(uuid "d2144482-52db-4809-b3fd-091af570d171")
+		)
+		(pin "5"
+			(uuid "aa3d0fc9-cb21-474e-a784-6f55ea0a5b94")
+		)
+		(pin "4"
+			(uuid "429071ff-007a-4557-a368-cf443ce484ea")
+		)
+		(pin "3"
+			(uuid "aa3a2469-f28b-4365-8ba0-a3a45015a163")
+		)
+		(pin "2"
+			(uuid "5e491dee-6815-4e94-8322-c48bd9fdd7b6")
+		)
+		(pin "1"
+			(uuid "82cb9028-9961-4f3f-b5a7-65a0ff2f02bc")
+		)
+		(pin "10"
+			(uuid "e15fd6ca-c0fe-420e-8864-cd4165cc9a69")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Interface_USB:USB2514B_Bi")
-		(at 267.97 134.62 0)
+		(at 302.26 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1958,7 +3714,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c892a12-7819-4609-a22b-8a9580d7f49c")
 		(property "Reference" "U1"
-			(at 270.1133 172.72 0)
+			(at 304.4033 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1969,7 +3725,7 @@
 			)
 		)
 		(property "Value" "USB2514B_Bi"
-			(at 270.1133 175.26 0)
+			(at 304.4033 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1980,7 +3736,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm"
-			(at 300.99 172.72 0)
+			(at 335.28 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1991,7 +3747,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf"
-			(at 308.61 175.26 0)
+			(at 342.9 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2002,7 +3758,7 @@
 			)
 		)
 		(property "Description" "USB 2.0 Hi-Speed Hub Controller"
-			(at 267.97 134.62 0)
+			(at 302.26 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
