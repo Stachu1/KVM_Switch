@@ -58,7 +58,7 @@
   },
   "git": {
     "integration_disabled": false,
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
     "ssh_key": ""
   },
@@ -118,7 +118,20 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "KVM_Switch.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 2,
+          "maximized": false,
+          "pos_x": -307,
+          "pos_y": 489,
+          "size_x": 1920,
+          "size_y": 1032
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],

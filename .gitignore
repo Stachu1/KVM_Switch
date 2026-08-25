@@ -22,8 +22,6 @@ Thumbs.db
 # KiCad cache / library local files (can be regenerated)
 **/fp-cache/
 **/fp-info-cache
-**/fp-lib-table
-**/sym-lib-table
 **/sym_cache/
 **/cache/
 
