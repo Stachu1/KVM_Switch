@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "HD3SS215RTQR") (type "KiCad") (uri "${KIPRJMOD}/HD3SS215RTQR/HD3SS215RTQR.kicad_sym") (options "") (descr ""))
 	(lib (name "TS3USB221AQRSERQ1") (type "KiCad") (uri "${KIPRJMOD}/TS3USB221AQRSERQ1/TS3USB221AQRSERQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "TPD12S016PWR") (type "KiCad") (uri "${KIPRJMOD}/TPD12S016PWR/TPD12S016PWR.kicad_sym") (options "") (descr ""))
 )

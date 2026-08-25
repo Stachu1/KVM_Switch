@@ -649,13 +649,41 @@
         "uuid": "94386106-ccd4-487f-b5c5-d52ec3dd59db"
       }
     ],
-    "used_designators": "U1-4,J1-5",
+    "used_designators": "U1-9,J1-5,J9-11,R1-15,#FLG2-4,#PWR1,#PWR5-27,D1,C1-12,X1,TP1-2",
     "variants": []
   },
   "sheets": [
     [
       "94386106-ccd4-487f-b5c5-d52ec3dd59db",
       "Root"
+    ],
+    [
+      "0e1d684f-830c-4bab-be20-dfd6c92d7874",
+      "UBS_Hub"
+    ],
+    [
+      "f8798a51-c1ff-493a-9d0c-61ef7e8fe77b",
+      "MCU"
+    ],
+    [
+      "10296ff8-e9b8-49ba-b387-93fc19c8212b",
+      "HDMI_Conn"
+    ],
+    [
+      "e397aa06-0b86-4196-a73c-4d06e82b65f2",
+      "USB_Host_Select"
+    ],
+    [
+      "6e43926c-16e0-4a92-a7fc-ce5a89c8ce59",
+      "HDMI_Switch"
+    ],
+    [
+      "568d0db6-8d81-4ca4-98ad-34437dbc0237",
+      "Power"
+    ],
+    [
+      "b872fb37-3607-4e08-a4aa-9f2b2b22c725",
+      "USB_A_Conn"
     ]
   ],
   "text_variables": {},
