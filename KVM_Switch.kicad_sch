@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 91.44 96.52)
+		(at 97.79 105.41)
 		(size 22.86 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "0e1d684f-830c-4bab-be20-dfd6c92d7874")
 		(property "Sheetname" "UBS_Hub"
-			(at 91.44 95.8084 0)
+			(at 97.79 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Hub.kicad_sch"
-			(at 91.44 113.6146 0)
+			(at 97.79 122.5046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58,7 +58,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 40.64)
+		(at 59.69 129.54)
 		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -74,7 +74,7 @@
 		)
 		(uuid "568d0db6-8d81-4ca4-98ad-34437dbc0237")
 		(property "Sheetname" "Power"
-			(at 180.34 39.9284 0)
+			(at 59.69 128.8284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 180.34 53.9246 0)
+			(at 59.69 142.8246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -105,7 +105,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 69.85)
+		(at 115.57 52.07)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -121,7 +121,7 @@
 		)
 		(uuid "6e43926c-16e0-4a92-a7fc-ce5a89c8ce59")
 		(property "Sheetname" "HDMI_Switch"
-			(at 128.27 69.1384 0)
+			(at 115.57 51.3584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -132,7 +132,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI_Switch.kicad_sch"
-			(at 128.27 83.1346 0)
+			(at 115.57 65.3546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152,7 +152,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 99.06)
+		(at 59.69 107.95)
 		(size 20.32 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -168,7 +168,7 @@
 		)
 		(uuid "e397aa06-0b86-4196-a73c-4d06e82b65f2")
 		(property "Sheetname" "USB_Host_Select"
-			(at 53.34 98.3484 0)
+			(at 59.69 107.2384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Host_Select.kicad_sch"
-			(at 53.34 111.0746 0)
+			(at 59.69 119.9646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -199,7 +199,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 31.75)
+		(at 170.18 104.14)
 		(size 24.13 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -215,7 +215,7 @@
 		)
 		(uuid "f8798a51-c1ff-493a-9d0c-61ef7e8fe77b")
 		(property "Sheetname" "MCU"
-			(at 50.8 31.0384 0)
+			(at 170.18 103.4284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -226,7 +226,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 50.8 43.7646 0)
+			(at 170.18 116.1546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

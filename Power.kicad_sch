@@ -2529,7 +2529,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 139.7 73.66 90)
+		(at 139.7 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2539,7 +2539,7 @@
 		(dnp no)
 		(uuid "08894655-15f2-450e-ae1e-f2160286353a")
 		(property "Reference" "TP1"
-			(at 133.604 73.66 90)
+			(at 133.604 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 136.398 71.12 90)
+			(at 136.398 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 139.7 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 68.58 0)
+			(at 139.7 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2582,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 139.7 73.66 0)
+			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

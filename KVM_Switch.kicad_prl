@@ -130,18 +130,6 @@
           "size_x": 1936,
           "size_y": 1168
         }
-      },
-      {
-        "name": "KVM_Switch.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": -1925,
-          "pos_y": 144,
-          "size_x": 1920,
-          "size_y": 1152
-        }
       }
     ]
   },

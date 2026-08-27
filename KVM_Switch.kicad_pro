@@ -649,7 +649,7 @@
         "uuid": "94386106-ccd4-487f-b5c5-d52ec3dd59db"
       }
     ],
-    "used_designators": "U1-9,J1-5,J9-11,R1-15,#FLG2-4,#PWR1,#PWR5-27,D1,C1-12,X1,TP1-2",
+    "used_designators": "U1-13,J1-5,J9-11,R1-21,#FLG2-4,#PWR1-48,D1,C1-21,X1,TP1-2",
     "variants": []
   },
   "sheets": [
@@ -683,7 +683,11 @@
     ],
     [
       "b872fb37-3607-4e08-a4aa-9f2b2b22c725",
-      "USB_A_Conn"
+      "USB_DOWN_1"
+    ],
+    [
+      "9225d246-3ad2-4927-a45b-bd5165c1e795",
+      "USB_DOWN_2"
     ]
   ],
   "text_variables": {},
