@@ -120,15 +120,15 @@
   "project": {
     "files": [
       {
-        "name": "KVM_Switch.kicad_sch",
+        "name": "KVM_Switch.kicad_pro",
         "open": false,
         "window": {
           "display": 2,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1168
+          "maximized": false,
+          "pos_x": 483,
+          "pos_y": 251,
+          "size_x": 954,
+          "size_y": 651
         }
       }
     ]

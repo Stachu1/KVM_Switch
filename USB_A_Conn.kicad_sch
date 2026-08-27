@@ -1817,7 +1817,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "4518-USBLC6-2SC6CT-ND"
+		(property "DigiKey" "5399-USBLC6-2SC6CT-ND"
 			(at 116.84 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2612,7 +2612,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "4518-USBLC6-2SC6CT-ND"
+		(property "DigiKey" "5399-USBLC6-2SC6CT-ND"
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)

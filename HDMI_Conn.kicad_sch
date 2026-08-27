@@ -1390,6 +1390,18 @@
 				(justify bottom)
 			)
 		)
+		(property "DigiKey" "296-29690-1-ND"
+			(at 220.98 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "24"
 			(uuid "187216d9-07be-44ee-840c-cf2396517080")
 		)
@@ -1528,6 +1540,17 @@
 			)
 		)
 		(property "Description" "HDMI type A connector"
+			(at 151.13 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "900-2086581001CT-ND"
 			(at 151.13 123.19 0)
 			(hide yes)
 			(show_name no)

@@ -1156,7 +1156,7 @@
 	)
 	(symbol
 		(lib_id "HD3SS215RTQR:HD3SS215RTQR")
-		(at 223.52 146.05 0)
+		(at 191.77 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1167,7 +1167,7 @@
 		(fields_autoplaced yes)
 		(uuid "b41f1d34-4d23-4ef3-84d4-fb02710fc337")
 		(property "Reference" "U4"
-			(at 229.4733 109.22 0)
+			(at 197.7233 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1178,7 +1178,7 @@
 			)
 		)
 		(property "Value" "HD3SS215RTQR"
-			(at 229.4733 111.76 0)
+			(at 197.7233 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1189,7 +1189,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm"
-			(at 223.52 146.05 0)
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1200,7 +1200,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss215.pdf"
-			(at 223.52 146.05 0)
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1211,7 +1211,18 @@
 			)
 		)
 		(property "Description" "6-Gbps HDMI / DisplayPort 2:1 / 1:2 differential switch, 56-pin RTQ VQFN"
-			(at 223.52 146.05 0)
+			(at 191.77 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-42335-1-ND"
+			(at 191.77 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
