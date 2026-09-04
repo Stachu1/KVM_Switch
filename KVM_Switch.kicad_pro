@@ -649,7 +649,7 @@
         "uuid": "94386106-ccd4-487f-b5c5-d52ec3dd59db"
       }
     ],
-    "used_designators": "U1-13,J1-6,J9-11,R1-21,#FLG1-4,#PWR1-55,D1-5,C1-27,X1,TP1-7,SW1",
+    "used_designators": "U1-18,TP1-10,#FLG1-4,J1-11,#PWR1-56,#PWR66-79,D1-5,C1-27,R1-25,X1,SW1",
     "variants": []
   },
   "sheets": [
@@ -667,7 +667,7 @@
     ],
     [
       "10296ff8-e9b8-49ba-b387-93fc19c8212b",
-      "HDMI_Conn"
+      "HDMI_IN_A"
     ],
     [
       "e397aa06-0b86-4196-a73c-4d06e82b65f2",
@@ -688,6 +688,14 @@
     [
       "9225d246-3ad2-4927-a45b-bd5165c1e795",
       "USB_DOWN_2"
+    ],
+    [
+      "2393b6ab-4c19-44eb-a2c5-8177ce0734c7",
+      "HDMI_IN_B"
+    ],
+    [
+      "2cace5ad-1892-4d81-8ded-518bc04706d8",
+      "HDMI_OUT"
     ]
   ],
   "text_variables": {},

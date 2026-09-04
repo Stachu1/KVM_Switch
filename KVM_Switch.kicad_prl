@@ -118,20 +118,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "KVM_Switch.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": true,
-          "pos_x": -1928,
-          "pos_y": 94,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],

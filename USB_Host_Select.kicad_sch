@@ -2109,6 +2109,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "S LOW => 1D+/- = D+/-"
+		(exclude_from_sim no)
+		(at 203.708 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bbe879a-9151-4a5e-999b-65b75d970fee")
+	)
 	(junction
 		(at 77.47 134.62)
 		(diameter 0)
@@ -2763,16 +2773,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 134.62) (xy 92.71 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb182e87-f898-4393-8618-694cb0c4c626")
-	)
-	(wire
-		(pts
 			(xy 165.1 80.01) (xy 165.1 83.82)
 		)
 		(stroke
@@ -2790,6 +2790,16 @@
 			(type default)
 		)
 		(uuid "c3d46d48-3a46-469e-a0f0-1a1735134171")
+	)
+	(wire
+		(pts
+			(xy 77.47 134.62) (xy 92.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e11345-997a-4515-961d-2c0cebe177c2")
 	)
 	(wire
 		(pts
@@ -2951,7 +2961,7 @@
 		)
 		(uuid "fbfb0742-3562-4dc0-8239-06e71a6c8bf3")
 	)
-	(label "USB_HOST1_DP"
+	(label "USB_A_DP"
 		(at 148.59 96.52 180)
 		(effects
 			(font
@@ -2961,7 +2971,7 @@
 		)
 		(uuid "1a7cf3e4-0d60-4883-bbf6-1a376534e4ab")
 	)
-	(label "USB_HOST2_DN"
+	(label "USB_B_DN"
 		(at 114.3 132.08 0)
 		(effects
 			(font
@@ -2971,7 +2981,7 @@
 		)
 		(uuid "20d02507-94e0-4932-89bf-067e7935595e")
 	)
-	(label "USB_HOST2_DP"
+	(label "USB_B_DP"
 		(at 114.3 134.62 0)
 		(effects
 			(font
@@ -2981,8 +2991,8 @@
 		)
 		(uuid "2a2b3401-ecfe-4041-8fa2-4cf4a30f6a4d")
 	)
-	(label "USB_CONN_DN"
-		(at 78.74 68.58 0)
+	(label "USB_CONN_A_DN"
+		(at 77.47 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2991,7 +3001,7 @@
 		)
 		(uuid "37eb8940-c344-4c22-bf13-38aebd6b294a")
 	)
-	(label "USB_HOST1_DN"
+	(label "USB_A_DN"
 		(at 114.3 68.58 0)
 		(effects
 			(font
@@ -3001,8 +3011,8 @@
 		)
 		(uuid "3e8e8adf-4603-4468-949a-6b09ff85624c")
 	)
-	(label "USB_CONN_DP"
-		(at 78.74 134.62 0)
+	(label "USB_CONN__BDP"
+		(at 77.47 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3011,7 +3021,7 @@
 		)
 		(uuid "6c4bc313-4de5-456d-96f7-78074c51bd78")
 	)
-	(label "USB_HOST2_DN"
+	(label "USB_B_DN"
 		(at 148.59 106.68 180)
 		(effects
 			(font
@@ -3021,7 +3031,7 @@
 		)
 		(uuid "8a1f3440-eb9a-4400-9218-82d5b507e9fc")
 	)
-	(label "USB_HOST1_DN"
+	(label "USB_A_DN"
 		(at 148.59 99.06 180)
 		(effects
 			(font
@@ -3031,7 +3041,7 @@
 		)
 		(uuid "a385b6ca-9409-4d38-a60f-fc201c0c8127")
 	)
-	(label "USB_HOST1_DP"
+	(label "USB_A_DP"
 		(at 114.3 71.12 0)
 		(effects
 			(font
@@ -3041,7 +3051,7 @@
 		)
 		(uuid "d41fed9c-71da-4f18-9ea0-a27423a2568f")
 	)
-	(label "USB_HOST2_DP"
+	(label "USB_B_DP"
 		(at 148.59 104.14 180)
 		(effects
 			(font
@@ -3051,8 +3061,8 @@
 		)
 		(uuid "dfb276b3-f2d8-44c5-9449-a2735dd92c0c")
 	)
-	(label "USB_CONN_DN"
-		(at 78.74 132.08 0)
+	(label "USB_CONN_B_DN"
+		(at 77.47 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,8 +3071,8 @@
 		)
 		(uuid "e1f02d4b-8ee4-4bcb-ba23-b93a0e9e0427")
 	)
-	(label "USB_CONN_DP"
-		(at 78.74 71.12 0)
+	(label "USB_CONN_A_DP"
+		(at 77.47 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3093,7 +3103,7 @@
 		)
 		(uuid "97a9a4d6-6b64-4015-b078-95c0ab45cb00")
 	)
-	(hierarchical_label "SW_USB_HOST"
+	(hierarchical_label "SW"
 		(shape input)
 		(at 190.5 101.6 0)
 		(effects

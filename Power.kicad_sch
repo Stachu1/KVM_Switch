@@ -2107,6 +2107,12 @@
 		(uuid "877e540e-cbb1-4fe8-8ea4-083273c0922b")
 	)
 	(junction
+		(at 161.29 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ebde54c-c0a0-441c-9d1d-cfd877e52310")
+	)
+	(junction
 		(at 166.37 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2262,6 +2268,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 72.39) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42704dd5-b21e-43ef-aeb8-16fa6d42202c")
+	)
+	(wire
+		(pts
 			(xy 105.41 78.74) (xy 105.41 77.47)
 		)
 		(stroke
@@ -2402,6 +2418,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 72.39) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44db9e5-6f0b-491a-a597-660c2b690a54")
+	)
+	(wire
+		(pts
 			(xy 161.29 69.85) (xy 161.29 71.12)
 		)
 		(stroke
@@ -2442,13 +2468,35 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 161.29 71.12)
+			(xy 161.29 73.66) (xy 161.29 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fcc63666-1bb6-4d8d-9493-62412128f7c6")
+	)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 162.56 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2836a173-0e4e-44fa-aabb-81c3d61be44e")
+	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 105.41 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3adeef6-1391-49df-bf9f-51654564f838")
 	)
 	(symbol
 		(lib_id "power:+3V3")

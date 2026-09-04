@@ -9,14 +9,303 @@
 		(date "2026-08-23")
 		(rev "A")
 	)
-	(lib_symbols)
-	(no_connect
-		(at 91.44 106.68)
-		(uuid "b4898f51-7e7b-42df-a36f-bf36233a9dc8")
+	(lib_symbols
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(no_connect
 		(at 91.44 104.14)
+		(uuid "b4898f51-7e7b-42df-a36f-bf36233a9dc8")
+	)
+	(no_connect
+		(at 91.44 101.6)
 		(uuid "c84f048f-de8c-4265-907e-533b35eca8c9")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df1aace-e9bb-4b81-a0f2-61b70f362c82")
 	)
 	(wire
 		(pts
@@ -30,6 +319,36 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 97.79) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35bb244-2ad4-40a5-807a-ebd6b838758a")
+	)
+	(wire
+		(pts
+			(xy 87.63 63.5) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65fd668-e93a-4ced-91e3-b5a1b28b1745")
+	)
+	(wire
+		(pts
+			(xy 179.07 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb42b37d-0539-46b4-96db-7a3ba075c370")
+	)
+	(wire
+		(pts
 			(xy 120.65 102.87) (xy 149.86 102.87)
 		)
 		(stroke
@@ -37,6 +356,190 @@
 			(type default)
 		)
 		(uuid "c9006b98-ffdd-4770-b727-6e02c0d975ad")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54280cd-6604-491c-9f0a-330e03b017f7")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7183f75-4458-4376-b85b-399dbd715455")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0c3378-2980-45c5-8ce2-1c734de2b400")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 111.76 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "106ddcd3-6048-4ad8-b9c4-18da7c923891")
+		(property "Reference" "#PWR053"
+			(at 111.76 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26f75f12-ddda-46f5-907f-1c2e97f22e40")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 87.63 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b2fd8b2-c510-4396-8ded-adcfd3e14101")
+		(property "Reference" "#PWR052"
+			(at 87.63 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 87.63 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 87.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1c508ec-f12a-4fe6-8f24-d0154aefd341")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 149.86 99.06)
@@ -106,8 +609,8 @@
 		)
 	)
 	(sheet
-		(at 62.23 127)
-		(size 26.67 11.43)
+		(at 91.44 63.5)
+		(size 16.51 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -122,7 +625,7 @@
 		)
 		(uuid "568d0db6-8d81-4ca4-98ad-34437dbc0237")
 		(property "Sheetname" "Power"
-			(at 62.23 126.2884 0)
+			(at 91.44 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,7 +636,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 62.23 139.0146 0)
+			(at 91.44 71.7046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142,6 +645,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+3V3" output
+			(at 107.95 67.31 0)
+			(uuid "0979c6f7-7388-4d19-be3a-21d563d2703c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 91.44 67.31 180)
+			(uuid "e860b3f1-773b-447e-8379-071a1b19f8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -153,7 +676,7 @@
 		)
 	)
 	(sheet
-		(at 147.32 43.18)
+		(at 151.13 53.34)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -169,7 +692,7 @@
 		)
 		(uuid "6e43926c-16e0-4a92-a7fc-ce5a89c8ce59")
 		(property "Sheetname" "HDMI_Switch"
-			(at 147.32 42.4684 0)
+			(at 151.13 52.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -180,7 +703,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI_Switch.kicad_sch"
-			(at 147.32 56.4646 0)
+			(at 151.13 66.6246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -200,7 +723,7 @@
 		)
 	)
 	(sheet
-		(at 91.44 99.06)
+		(at 91.44 96.52)
 		(size 29.21 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -216,7 +739,7 @@
 		)
 		(uuid "e397aa06-0b86-4196-a73c-4d06e82b65f2")
 		(property "Sheetname" "USB_Host_Select"
-			(at 91.44 98.3484 0)
+			(at 91.44 95.8084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -227,7 +750,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Host_Select.kicad_sch"
-			(at 91.44 112.3446 0)
+			(at 91.44 109.8046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -239,7 +762,7 @@
 			)
 		)
 		(pin "DET_HOST1" output
-			(at 91.44 104.14 180)
+			(at 91.44 101.6 180)
 			(uuid "3b51559f-4c60-4f0a-826c-4b51644adb42")
 			(effects
 				(font
@@ -249,23 +772,13 @@
 			)
 		)
 		(pin "DET_HOST2" output
-			(at 91.44 106.68 180)
+			(at 91.44 104.14 180)
 			(uuid "2a65d8e1-fa72-4019-a64f-e20127ef6372")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "SW_USB_HOST" input
-			(at 120.65 109.22 0)
-			(uuid "3d4aba1f-5b2e-44c1-9def-9910709365c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "USB_HOST_DN" bidirectional
@@ -288,6 +801,16 @@
 				(justify right)
 			)
 		)
+		(pin "SW" input
+			(at 120.65 97.79 0)
+			(uuid "88fc3960-a631-4550-8f16-f9660048e186")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
@@ -297,7 +820,7 @@
 		)
 	)
 	(sheet
-		(at 200.66 97.79)
+		(at 179.07 78.74)
 		(size 13.97 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -313,7 +836,7 @@
 		)
 		(uuid "f8798a51-c1ff-493a-9d0c-61ef7e8fe77b")
 		(property "Sheetname" "MCU"
-			(at 200.66 97.0784 0)
+			(at 179.07 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -324,7 +847,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 200.66 108.5346 0)
+			(at 179.07 89.4846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -335,9 +858,9 @@
 				(justify left top)
 			)
 		)
-		(pin "HOST_SW" output
-			(at 200.66 102.87 180)
-			(uuid "949d75fd-3ba8-48a2-8e37-328726979de9")
+		(pin "SW" output
+			(at 179.07 83.82 180)
+			(uuid "25f80f3f-1cd8-40a9-b13f-40693e868f8d")
 			(effects
 				(font
 					(size 1.27 1.27)
