@@ -3072,7 +3072,7 @@
 		(uuid "f34c2732-53d0-4142-9e3a-35de2845a5d4")
 	)
 	(hierarchical_label "USB_HOST_DN"
-		(shape input)
+		(shape bidirectional)
 		(at 190.5 99.06 0)
 		(effects
 			(font
@@ -3138,7 +3138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "054ccb34-1df4-46a8-93a0-9a1f07fc2cb5")
-		(property "Reference" "J11"
+		(property "Reference" "J3"
 			(at 60.96 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3192,39 +3192,6 @@
 			)
 		)
 		(property "DigiKey" "2073-USB4105-GF-ACT-ND"
-			(at 60.96 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "USB4105-GF-A"
-			(at 60.96 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 60.96 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 60.96 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3289,7 +3256,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3307,7 +3274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a13ac82-e8ad-4223-8dcf-c812bc62c33e")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 64.135 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3368,7 +3335,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -3386,7 +3353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c734bb5-85aa-4898-9989-e4cbed755d58")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 88.9 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3447,7 +3414,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1caa8760-9b53-4fd5-ba41-6f78b9f2bde9")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 81.28 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,40 +3485,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 81.28 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 81.28 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DigiKey" "311-5.10KHRCT-ND"
-			(at 81.28 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "RC0603FR-075K1L"
 			(at 81.28 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -3571,7 +3505,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3588,7 +3522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b36b13-8dd0-4555-9e9b-2b8a7699e636")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 98.552 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3658,39 +3592,6 @@
 				)
 			)
 		)
-		(property "Name" "USBLC6-2SC6"
-			(at 97.79 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 97.79 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 97.79 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "5"
 			(uuid "ae222174-fb7e-4edc-bd0c-ba015d081990")
 		)
@@ -3712,7 +3613,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3730,7 +3631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "408bb737-2685-4b50-b20d-68b2f5cc9c09")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3791,7 +3692,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3809,7 +3710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "457eaa64-ba93-4ed1-b0d1-2bd0ba5c3fcd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 97.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3870,7 +3771,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3888,7 +3789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e212a10-7b8b-463c-8da8-15503bec4143")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 81.28 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3941,40 +3842,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 81.28 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 81.28 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DigiKey" "311-5.10KHRCT-ND"
-			(at 81.28 124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "RC0603FR-075K1L"
 			(at 81.28 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -3994,7 +3862,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4011,7 +3879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cdd52e4-e3c0-4ef3-a427-75452524e3b8")
-		(property "Reference" "U7"
+		(property "Reference" "U4"
 			(at 98.552 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,39 +3949,6 @@
 				)
 			)
 		)
-		(property "Name" "USBLC6-2SC6"
-			(at 97.79 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 97.79 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 97.79 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "5"
 			(uuid "7c837e23-ecf1-4247-a0e1-e6bbdc54beb8")
 		)
@@ -4135,7 +3970,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U7")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4231,7 +4066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6558ae05-0c41-4415-9f08-d708d9f79f30")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 81.28 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,40 +4119,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 81.28 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 81.28 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DigiKey" "311-5.10KHRCT-ND"
-			(at 81.28 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "RC0603FR-075K1L"
 			(at 81.28 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -4337,7 +4139,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "823b207b-aa72-49ad-a522-35f91d34f658")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 81.28 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4407,40 +4209,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 81.28 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 81.28 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "DigiKey" "311-5.10KHRCT-ND"
-			(at 81.28 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "RC0603FR-075K1L"
 			(at 81.28 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -4460,7 +4229,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4478,7 +4247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "855c4500-ebf4-4e65-b4be-5a621826ab46")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 187.198 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4498,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 185.928 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -4531,29 +4300,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX no." "141002"
+		(property "AX" "201002"
 			(at 184.15 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4573,7 +4320,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4591,7 +4338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0a47ed-edf6-40c9-bb97-3ab497c9a4d9")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 64.135 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4652,7 +4399,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -4670,7 +4417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a02b2f97-c75c-4d72-be9e-a1bb28d9cbe4")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 179.578 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4690,7 +4437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 178.308 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -4723,29 +4470,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 176.53 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 176.53 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX no." "141002"
+		(property "AX" "201002"
 			(at 176.53 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4765,7 +4490,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4782,7 +4507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a646c32a-b171-4928-8545-6c65344826c8")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 165.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4842,7 +4567,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4860,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad8fa6d-ec73-4b6c-abed-b28ec75936b7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR025"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4921,7 +4646,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR010")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4939,7 +4664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce5ba6f-f521-4bcd-aebb-4dc808891436")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 109.22 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +4725,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR014")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5018,7 +4743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be96c34c-f206-4451-9c2d-22b194fed583")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5079,7 +4804,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5097,7 +4822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c94edd-d1c7-4a20-b5e4-ced1cc780211")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR023"
 			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5158,7 +4883,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5176,7 +4901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5ce87e1-e70f-47b1-8bce-c023933bdaa7")
-		(property "Reference" "C19"
+		(property "Reference" "C14"
 			(at 106.68 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5231,29 +4956,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 101.6 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 101.6 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX no." "27012"
+		(property "AX" "27012"
 			(at 101.6 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -5273,7 +4976,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "C19")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5291,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafca8ac-91e3-4f9a-b1ba-c3ff8627a230")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR021"
 			(at 60.96 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5352,7 +5055,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR08")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5370,7 +5073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "decbb463-76fb-47cb-ab38-a6c47c957e8e")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 167.2433 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5172,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5487,7 +5190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e31e89-9a77-40e4-b42c-3da13ed53cfc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR027"
 			(at 109.22 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5251,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR012")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5269,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e50b6719-83d3-45b8-b6c9-79487b0c6d26")
-		(property "Reference" "C20"
+		(property "Reference" "C15"
 			(at 106.68 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,29 +5324,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 101.6 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 101.6 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX no." "27012"
+		(property "AX" "27012"
 			(at 101.6 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -5663,7 +5344,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "C20")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5681,7 +5362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcbc3e8c-7aa4-4e69-a86f-1e740ae262b9")
-		(property "Reference" "J10"
+		(property "Reference" "J2"
 			(at 60.96 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5735,39 +5416,6 @@
 			)
 		)
 		(property "DigiKey" "2073-USB4105-GF-ACT-ND"
-			(at 60.96 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "USB4105-GF-A"
-			(at 60.96 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 60.96 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
 			(at 60.96 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5832,7 +5480,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5850,7 +5498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd645450-8066-4867-ab5e-8ba435c9baf3")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 175.26 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,29 +5553,7 @@
 				)
 			)
 		)
-		(property "KLC_S3.3" ""
-			(at 170.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 170.18 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX no." "27012"
+		(property "AX" "27012"
 			(at 170.18 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +5573,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)

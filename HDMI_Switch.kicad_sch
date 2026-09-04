@@ -1166,7 +1166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b41f1d34-4d23-4ef3-84d4-fb02710fc337")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 197.7233 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,15 +1406,15 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 114.3 88.9)
-		(size 19.05 8.89)
+		(at 106.68 73.66)
+		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1425,11 +1425,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 255 194 1)
 		)
 		(uuid "10296ff8-e9b8-49ba-b387-93fc19c8212b")
 		(property "Sheetname" "HDMI_Conn"
-			(at 114.3 88.1884 0)
+			(at 106.68 72.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1440,7 +1440,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI_Conn.kicad_sch"
-			(at 114.3 98.3746 0)
+			(at 106.68 112.3446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -10,9 +10,37 @@
 		(rev "A")
 	)
 	(lib_symbols)
+	(no_connect
+		(at 91.44 106.68)
+		(uuid "b4898f51-7e7b-42df-a36f-bf36233a9dc8")
+	)
+	(no_connect
+		(at 91.44 104.14)
+		(uuid "c84f048f-de8c-4265-907e-533b35eca8c9")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2725287e-f6c9-46be-a109-2e7569fe814d")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 149.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9006b98-ffdd-4770-b727-6e02c0d975ad")
+	)
 	(sheet
-		(at 97.79 105.41)
-		(size 22.86 16.51)
+		(at 149.86 99.06)
+		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27,7 +55,7 @@
 		)
 		(uuid "0e1d684f-830c-4bab-be20-dfd6c92d7874")
 		(property "Sheetname" "UBS_Hub"
-			(at 97.79 104.6984 0)
+			(at 149.86 98.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +66,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Hub.kicad_sch"
-			(at 97.79 122.5046 0)
+			(at 149.86 109.8046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47,6 +75,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_HOST_DN" bidirectional
+			(at 149.86 102.87 180)
+			(uuid "37177d04-43db-4198-b957-5b136f97b0e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HOST_DP" bidirectional
+			(at 149.86 105.41 180)
+			(uuid "6931aad4-5e19-4d06-b912-1c85318a30a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -58,8 +106,8 @@
 		)
 	)
 	(sheet
-		(at 59.69 129.54)
-		(size 17.78 12.7)
+		(at 62.23 127)
+		(size 26.67 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74,7 +122,7 @@
 		)
 		(uuid "568d0db6-8d81-4ca4-98ad-34437dbc0237")
 		(property "Sheetname" "Power"
-			(at 59.69 128.8284 0)
+			(at 62.23 126.2884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +133,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 59.69 142.8246 0)
+			(at 62.23 139.0146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -105,7 +153,7 @@
 		)
 	)
 	(sheet
-		(at 115.57 52.07)
+		(at 147.32 43.18)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -121,7 +169,7 @@
 		)
 		(uuid "6e43926c-16e0-4a92-a7fc-ce5a89c8ce59")
 		(property "Sheetname" "HDMI_Switch"
-			(at 115.57 51.3584 0)
+			(at 147.32 42.4684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -132,7 +180,7 @@
 			)
 		)
 		(property "Sheetfile" "HDMI_Switch.kicad_sch"
-			(at 115.57 65.3546 0)
+			(at 147.32 56.4646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152,8 +200,8 @@
 		)
 	)
 	(sheet
-		(at 59.69 107.95)
-		(size 20.32 11.43)
+		(at 91.44 99.06)
+		(size 29.21 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -168,7 +216,7 @@
 		)
 		(uuid "e397aa06-0b86-4196-a73c-4d06e82b65f2")
 		(property "Sheetname" "USB_Host_Select"
-			(at 59.69 107.2384 0)
+			(at 91.44 98.3484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179,7 +227,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_Host_Select.kicad_sch"
-			(at 59.69 119.9646 0)
+			(at 91.44 112.3446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -188,6 +236,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DET_HOST1" output
+			(at 91.44 104.14 180)
+			(uuid "3b51559f-4c60-4f0a-826c-4b51644adb42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DET_HOST2" output
+			(at 91.44 106.68 180)
+			(uuid "2a65d8e1-fa72-4019-a64f-e20127ef6372")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SW_USB_HOST" input
+			(at 120.65 109.22 0)
+			(uuid "3d4aba1f-5b2e-44c1-9def-9910709365c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HOST_DN" bidirectional
+			(at 120.65 102.87 0)
+			(uuid "9c1a0fcf-65ee-412f-84c6-49621030dd9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HOST_DP" bidirectional
+			(at 120.65 105.41 0)
+			(uuid "477ea0f9-4f24-4330-b99d-71ac54c48102")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -199,8 +297,8 @@
 		)
 	)
 	(sheet
-		(at 170.18 104.14)
-		(size 24.13 11.43)
+		(at 200.66 97.79)
+		(size 13.97 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -215,7 +313,7 @@
 		)
 		(uuid "f8798a51-c1ff-493a-9d0c-61ef7e8fe77b")
 		(property "Sheetname" "MCU"
-			(at 170.18 103.4284 0)
+			(at 200.66 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -226,7 +324,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 170.18 116.1546 0)
+			(at 200.66 108.5346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -235,6 +333,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HOST_SW" output
+			(at 200.66 102.87 180)
+			(uuid "949d75fd-3ba8-48a2-8e37-328726979de9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
