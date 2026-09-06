@@ -1,4 +1,6 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "TS3USB221AQRSERQ1") (type "KiCad") (uri "${KIPRJMOD}/TS3USB221AQRSERQ1/TS3USB221AQRSERQ1.pretty") (options "") (descr ""))
+	(lib (name "TS06-667-50-BK-100-G-SMT-TR") (type "KiCad") (uri "${KIPRJMOD}/TS06-667-50-BK-100-G-SMT-TR/TS06-667-50-BK-100-G-SMT-TR.pretty") (options "") (descr ""))
+	(lib (name "KVM_Swtich") (type "KiCad") (uri "${KIPRJMOD}/library/KVM_Swtich.pretty") (options "") (descr ""))
 )

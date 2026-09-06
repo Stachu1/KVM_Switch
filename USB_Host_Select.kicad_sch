@@ -1480,7 +1480,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+		(symbol "Symbols:TS3USB221AQRSERQ1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2804,7 +2804,7 @@
 		)
 		(uuid "3e8e8adf-4603-4468-949a-6b09ff85624c")
 	)
-	(label "USB_CONN__BDP"
+	(label "USB_CONN_B_DP"
 		(at 77.47 134.62 0)
 		(effects
 			(font
@@ -4711,6 +4711,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:TS3USB221AQRSERQ1")
+		(at 165.1 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bffd698b-61a0-4500-8600-23a726a781ca")
+		(property "Reference" "U2"
+			(at 167.2433 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS3USB221AQRSERQ1"
+			(at 167.2433 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/scds300e/scds300e.pdf"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Automotive ESD protected high-speed USB 2.0 1:2 multiplexer/demultiplexer switch"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-27719-1-ND"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3adc0c8c-dc77-43ce-ad0d-501749499ad3")
+		)
+		(pin "2"
+			(uuid "ccd13447-486e-48fd-8d79-64e23eed79f3")
+		)
+		(pin "1"
+			(uuid "020a0320-d13c-492a-b408-31f528537ea6")
+		)
+		(pin "9"
+			(uuid "80be3a12-b132-434f-af4b-5ea3a55cdfab")
+		)
+		(pin "10"
+			(uuid "a610e98d-b125-46c3-9754-4e0a3cff3ced")
+		)
+		(pin "6"
+			(uuid "0a32bac2-6ad2-4d49-91e2-c8cfe7cb49ce")
+		)
+		(pin "8"
+			(uuid "25df6245-5030-4a98-a449-1620c88c71d0")
+		)
+		(pin "7"
+			(uuid "954e79e0-a565-4a02-8d79-276a53e8d5c4")
+		)
+		(pin "5"
+			(uuid "eafedceb-f84f-4847-840b-c89888afd7bd")
+		)
+		(pin "4"
+			(uuid "40b529fd-eb97-414f-b99b-a6d30ac8fd35")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 62.23 0)
 		(unit 1)
@@ -4863,123 +4980,6 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1")
-		(at 165.1 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "decbb463-76fb-47cb-ab38-a6c47c957e8e")
-		(property "Reference" "U2"
-			(at 167.2433 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS3USB221AQRSERQ1"
-			(at 167.2433 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
-			(at 165.1 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/scds300e/scds300e.pdf"
-			(at 165.1 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Automotive ESD protected high-speed USB 2.0 1:2 multiplexer/demultiplexer switch"
-			(at 165.1 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-27719-1-ND"
-			(at 165.1 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "4cc067ac-a7bc-4535-a98a-5e979168a1a4")
-		)
-		(pin "8"
-			(uuid "a20ff83a-119e-48b7-8125-759cb2fed815")
-		)
-		(pin "7"
-			(uuid "b128ba6f-ac6e-4abc-9ec3-3f87cef25b8c")
-		)
-		(pin "6"
-			(uuid "2739c9b3-b99e-4592-b617-dd29fb1d777b")
-		)
-		(pin "5"
-			(uuid "cecdc155-81fa-4569-b828-7378540c1d34")
-		)
-		(pin "4"
-			(uuid "a42874aa-ddb3-4ca0-a884-1b209419ee90")
-		)
-		(pin "3"
-			(uuid "709cd669-4d38-4df4-ac11-8345996f5aa0")
-		)
-		(pin "2"
-			(uuid "30207fa4-2b43-4335-8566-e8a71acfb118")
-		)
-		(pin "1"
-			(uuid "ca4a270c-e869-4c9a-8850-60078a6d8b92")
-		)
-		(pin "10"
-			(uuid "f153a488-e5e6-4dcb-a219-55a53ca96979")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U2")
 					(unit 1)
 				)
 			)

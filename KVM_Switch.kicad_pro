@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -511,6 +511,69 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "+3V3",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "+5V",
+        "pcb_color": "rgb(255, 104, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 104, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 0,
+        "schematic_color": "rgb(72, 72, 72)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(255, 255, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "OSC",
+        "pcb_color": "rgb(187, 2, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(187, 2, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SWD",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "TMDS",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 255, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "UART",
+        "pcb_color": "rgb(0, 128, 36)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 128, 36)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 8,
+        "schematic_color": "rgb(0, 255, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -518,7 +581,52 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "*USB*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SCL*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SDA*"
+      },
+      {
+        "netclass": "TMDS",
+        "pattern": "*HDMI_*HDMI_*_N"
+      },
+      {
+        "netclass": "TMDS",
+        "pattern": "*HDMI_*HDMI_*_P"
+      },
+      {
+        "netclass": "SWD",
+        "pattern": "*MCU/SW*"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*UART*"
+      },
+      {
+        "netclass": "+3V3",
+        "pattern": "*+3V3*"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "*VBUS*"
+      },
+      {
+        "netclass": "OSC",
+        "pattern": "*OSC*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*GND*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

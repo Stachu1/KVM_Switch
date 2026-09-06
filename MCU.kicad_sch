@@ -2948,7 +2948,7 @@
 		)
 		(uuid "a6297069-bbda-4dc9-9a6b-5ee4b05edfa6")
 	)
-	(label "USART_RX"
+	(label "UART_RX"
 		(at 138.43 81.28 180)
 		(effects
 			(font
@@ -2968,7 +2968,7 @@
 		)
 		(uuid "e8bec49a-cde5-4911-ae67-822c787bbdbd")
 	)
-	(label "USART_TX"
+	(label "UART_TX"
 		(at 138.43 78.74 180)
 		(effects
 			(font
@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
+		(property "Value" "SPST-NO"
 			(at 201.93 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_KMS2xxGP"
+		(property "Footprint" "KVM_Swtich:EVQ-Q2K03W"
 			(at 201.93 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3358,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/ts06.pdf"
 			(at 201.93 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3370,6 +3370,17 @@
 			)
 		)
 		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 201.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "2223-TS06-667-50-BK-100-G-SMT-TRCT-ND"
 			(at 201.93 77.47 0)
 			(hide yes)
 			(show_name no)

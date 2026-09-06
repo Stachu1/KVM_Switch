@@ -293,7 +293,7 @@
 		(at 99.06 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36f061af-134f-4cbe-a933-4c9b84f8ec91")
+		(uuid "cce1215d-719e-4770-85fd-c268a70a1212")
 	)
 	(wire
 		(pts
@@ -307,13 +307,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 99.06 69.85)
+			(xy 99.06 88.9) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1680910f-4e9f-4791-b4a8-6b1a0330bc45")
+		(uuid "141b1eef-48a2-4dd4-906d-311d6377ed78")
 	)
 	(wire
 		(pts
@@ -357,16 +357,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50567e8a-bd60-4283-8e66-c111dce49ed4")
-	)
-	(wire
-		(pts
 			(xy 139.7 104.14) (xy 152.4 104.14)
 		)
 		(stroke
@@ -374,6 +364,26 @@
 			(type default)
 		)
 		(uuid "5b4e4298-f9a7-4776-bef5-f9888760c538")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaf8add-d5a7-4e44-af18-633c06c78946")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76134d77-21a5-4e2f-b98d-5fa041442a16")
 	)
 	(wire
 		(pts
@@ -485,15 +495,15 @@
 		)
 		(uuid "f35d2495-500f-47cc-af72-2842ba178509")
 	)
-	(wire
-		(pts
-			(xy 99.06 69.85) (xy 99.06 88.9)
+	(label "SW"
+		(at 99.06 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f706d078-3fb8-4b88-a0a7-7653158b6a7f")
+		(uuid "66832b2c-6840-4b75-89f6-6adaf579d712")
 	)
 	(symbol
 		(lib_id "power:+3V3")

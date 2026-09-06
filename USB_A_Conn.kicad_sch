@@ -1824,6 +1824,46 @@
 		)
 		(uuid "e714ab7b-d428-499a-be2c-ee227dae9d1a")
 	)
+	(label "USB2_CONN_DN"
+		(at 128.27 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "136b8169-1763-4eaa-92a2-19f219858deb")
+	)
+	(label "USB1_CONN_DN"
+		(at 128.27 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b46105-805e-4adb-8d28-b38d944bbdd7")
+	)
+	(label "USB1_CONN_DP"
+		(at 128.27 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85ca6033-0617-4250-a433-7a40875b3c7f")
+	)
+	(label "USB2_CONN_DP"
+		(at 128.27 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2d03ddd-bb32-4236-a879-648d925c6060")
+	)
 	(hierarchical_label "USB1_DP"
 		(shape bidirectional)
 		(at 101.6 90.17 180)

@@ -427,7 +427,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HD3SS215RTQR:HD3SS215RTQR"
+		(symbol "Symbols:HD3SS215RTQR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2018,12 +2018,6 @@
 		(uuid "69b9737c-405e-4b14-b15a-383da68f5035")
 	)
 	(junction
-		(at 199.39 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7aa8b8ae-74a0-4577-a859-b4db92ffc926")
-	)
-	(junction
 		(at 71.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2058,6 +2052,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c682170d-d606-4c55-b903-7ccc8bb6a847")
+	)
+	(junction
+		(at 199.39 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7550399-9f93-4657-9ebc-9e58b1d35a95")
 	)
 	(junction
 		(at 165.1 102.87)
@@ -4799,263 +4799,6 @@
 		)
 	)
 	(symbol
-		(lib_id "HD3SS215RTQR:HD3SS215RTQR")
-		(at 138.43 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b41f1d34-4d23-4ef3-84d4-fb02710fc337")
-		(property "Reference" "U11"
-			(at 144.018 48.768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HD3SS215RTQR"
-			(at 144.018 51.308 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm"
-			(at 138.43 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss215.pdf"
-			(at 138.43 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "6-Gbps HDMI / DisplayPort 2:1 / 1:2 differential switch, 56-pin RTQ VQFN"
-			(at 138.43 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "296-42335-1-ND"
-			(at 138.43 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "13"
-			(uuid "5975d4de-9023-46d2-9d85-2cb82d46e54c")
-		)
-		(pin "14"
-			(uuid "497c594e-5187-4c95-8ca7-2f24f6856a8c")
-		)
-		(pin "16"
-			(uuid "63f0f63f-29cd-479f-aa88-c276ec5a3c37")
-		)
-		(pin "15"
-			(uuid "c37916aa-9b38-45d8-97bc-5ae369e83eb3")
-		)
-		(pin "17"
-			(uuid "409c66f6-7039-45ad-ae4c-855b8c5e4af2")
-		)
-		(pin "18"
-			(uuid "9f0cb481-0794-49eb-942b-612d66e9c320")
-		)
-		(pin "12"
-			(uuid "3a62282a-a015-4110-b55b-77a7a68313a1")
-		)
-		(pin "11"
-			(uuid "8b9e0567-e3fa-4c39-9151-5586eeb7bc24")
-		)
-		(pin "10"
-			(uuid "580b21f7-83bc-4cd9-a9fc-cede6fece0d2")
-		)
-		(pin "9"
-			(uuid "013d9611-bca3-4e8b-b052-d2ccafe451bf")
-		)
-		(pin "8"
-			(uuid "7f4cec25-6bf9-4bad-975f-41c6f3e926e1")
-		)
-		(pin "7"
-			(uuid "e9ba1a17-8201-4d5b-8638-1b98dd54085c")
-		)
-		(pin "5"
-			(uuid "0b265ebe-c8b6-42f3-8487-46544f0e8b7e")
-		)
-		(pin "1"
-			(uuid "64c3e737-7b73-4e17-a7c1-b470b278dbd2")
-		)
-		(pin "19"
-			(uuid "adcb53b8-652c-490f-8e98-ddc6dc9f6622")
-		)
-		(pin "20"
-			(uuid "05071819-7cc2-49b4-8922-442f584b5769")
-		)
-		(pin "2"
-			(uuid "e56fbebe-d546-4cea-a71d-74001f9d3436")
-		)
-		(pin "3"
-			(uuid "aef01710-c0c5-4645-89bd-01bfb4231585")
-		)
-		(pin "4"
-			(uuid "53724210-7376-40b8-8567-3e9586056346")
-		)
-		(pin "6"
-			(uuid "deb1429f-8871-4d38-814e-39b7cdbfea3f")
-		)
-		(pin "41"
-			(uuid "a25edf31-dc0c-4ca4-9919-915f1d01f228")
-		)
-		(pin "42"
-			(uuid "da8e9ae6-7847-4dc5-8707-ff91fe657395")
-		)
-		(pin "43"
-			(uuid "5f5f97bd-23e7-4049-9ec5-c3a3e3056d95")
-		)
-		(pin "46"
-			(uuid "ae4b52be-b147-4f14-9f20-5c6e57a3bad4")
-		)
-		(pin "44"
-			(uuid "1d32aa74-40ce-409f-b056-5af0a45a053d")
-		)
-		(pin "45"
-			(uuid "5bc82e93-55b6-4a4c-b5bd-dc57ed652b5e")
-		)
-		(pin "39"
-			(uuid "e9a31dcc-da92-4b4c-bcbd-5f0533afcf5b")
-		)
-		(pin "40"
-			(uuid "35bda88f-d994-4d57-8138-098ee7fa28ab")
-		)
-		(pin "38"
-			(uuid "af3de378-7c5f-4ca4-a13a-2771b0a225b2")
-		)
-		(pin "37"
-			(uuid "8b8f7c2b-67de-4495-890e-45e0763a6261")
-		)
-		(pin "36"
-			(uuid "90ffb9dd-94c1-45c2-9058-5b135c57be36")
-		)
-		(pin "35"
-			(uuid "0a6a05ba-f8b9-4f1d-8866-a6c110d8f13f")
-		)
-		(pin "34"
-			(uuid "ec641aa9-c2e6-49c5-86d8-5131646b726a")
-		)
-		(pin "33"
-			(uuid "46a53efb-6f51-4caa-b23f-88408f7274e0")
-		)
-		(pin "32"
-			(uuid "fd637801-38e2-44f6-9fda-397d69e2a838")
-		)
-		(pin "31"
-			(uuid "91e94f94-503b-429a-bd64-7e6c9359d3ea")
-		)
-		(pin "30"
-			(uuid "050a276c-f7c1-43c6-9fc0-738ddeda3bca")
-		)
-		(pin "29"
-			(uuid "fee9444d-159c-4210-901f-e42e8b24bee2")
-		)
-		(pin "28"
-			(uuid "dd7c0a87-8a33-4f04-8f68-f61ad11ed295")
-		)
-		(pin "27"
-			(uuid "2a23f896-7a0f-4d34-8978-7b0dbf8e8471")
-		)
-		(pin "55"
-			(uuid "fb63f7ab-32fc-44fe-abed-b5dfc41c7be0")
-		)
-		(pin "50"
-			(uuid "cac45f06-90aa-42c2-b78a-a6b6a81ad382")
-		)
-		(pin "49"
-			(uuid "287e497b-ed4c-4064-a0bd-68a728756bf0")
-		)
-		(pin "48"
-			(uuid "d6471c5b-8935-4481-8c65-331bf92c4015")
-		)
-		(pin "47"
-			(uuid "6ffef9e1-dd70-41b5-9061-e323a8807413")
-		)
-		(pin "57"
-			(uuid "a627728b-e3ce-4ed2-be9e-4528577c9256")
-		)
-		(pin "54"
-			(uuid "10e75eb4-83e6-4a97-a947-f5fc74bb303b")
-		)
-		(pin "53"
-			(uuid "30dceeb1-cb9d-43db-82ae-6794851b1313")
-		)
-		(pin "56"
-			(uuid "77847eb0-faa2-4a55-ab6c-f0a08b6f7183")
-		)
-		(pin "52"
-			(uuid "d6c3e68b-c280-43e6-bebf-29d591ba62df")
-		)
-		(pin "51"
-			(uuid "54b35098-f105-4193-8ea3-8e62de74822a")
-		)
-		(pin "21"
-			(uuid "6da595bc-8c8c-4f9e-8180-15161b2c927c")
-		)
-		(pin "22"
-			(uuid "48db74a9-8bbe-43af-8d68-0e5c0353c917")
-		)
-		(pin "23"
-			(uuid "2f449fae-9048-4184-b2bc-525b1cecdb86")
-		)
-		(pin "24"
-			(uuid "3062ddcd-1594-4c7e-a3cf-8f11a89a8c97")
-		)
-		(pin "25"
-			(uuid "cdcefa17-216d-4321-8653-9dcc3f1378a4")
-		)
-		(pin "26"
-			(uuid "6fb224d6-13b6-42c9-bb9f-a9563dc37bf4")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 88.9 72.39 270)
 		(unit 1)
@@ -5632,6 +5375,263 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:HD3SS215RTQR")
+		(at 138.43 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcafec7f-62b8-4993-b7b8-0bee3778153b")
+		(property "Reference" "U11"
+			(at 143.256 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HD3SS215RTQR"
+			(at 143.256 51.562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_8x8mm_P0.5mm_EP4.3x4.3mm"
+			(at 138.43 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/hd3ss215.pdf"
+			(at 138.43 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-Gbps HDMI / DisplayPort 2:1 / 1:2 differential switch, 56-pin RTQ VQFN"
+			(at 138.43 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-42335-1-ND"
+			(at 138.43 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "53"
+			(uuid "cdb56035-d1aa-46a1-8c1d-ad86efb4281d")
+		)
+		(pin "57"
+			(uuid "db04f42f-2782-4470-97e7-2755386b05d9")
+		)
+		(pin "56"
+			(uuid "ae1d4ce0-8f49-4642-b4ef-03e5a0741a45")
+		)
+		(pin "55"
+			(uuid "e3e61e83-0bd5-41f1-b9f0-0afea2818c5a")
+		)
+		(pin "54"
+			(uuid "234a2955-4ef0-496c-985e-7ff621212ad7")
+		)
+		(pin "52"
+			(uuid "4f704f2e-d847-42cf-9ea3-3ed6ddadf1f7")
+		)
+		(pin "51"
+			(uuid "3c74d362-a530-4790-9793-731d37009cba")
+		)
+		(pin "50"
+			(uuid "721b3d99-6cec-4b93-bc80-b225e09a39c2")
+		)
+		(pin "49"
+			(uuid "efefc49f-3e2c-4db4-884f-0d9656795de0")
+		)
+		(pin "48"
+			(uuid "bd6c9ad4-ca68-4868-a261-0d0476b72f30")
+		)
+		(pin "47"
+			(uuid "ff24e916-0797-4254-a01c-77cbe5fcfdc9")
+		)
+		(pin "46"
+			(uuid "aa2d33f4-eaf1-48d1-9a9b-88cfece8a0d9")
+		)
+		(pin "45"
+			(uuid "59e57a0b-cd3a-461b-bb0e-7562a8ff4833")
+		)
+		(pin "44"
+			(uuid "6ecf0695-15c8-4e6a-9eb3-24c16d3b5a9c")
+		)
+		(pin "43"
+			(uuid "262165dc-9a31-4144-add1-d962b5b5a457")
+		)
+		(pin "22"
+			(uuid "05cc27e0-cb11-4919-9941-e54d68826140")
+		)
+		(pin "21"
+			(uuid "5a198199-71cb-4af9-827f-765b6204ec47")
+		)
+		(pin "13"
+			(uuid "c577557c-e52e-47c7-ad46-76cc86bed961")
+		)
+		(pin "36"
+			(uuid "49a65de7-0c64-4a4d-8ec0-47daefecc90e")
+		)
+		(pin "39"
+			(uuid "003eeaa1-e473-49c7-8e31-46a21a287d28")
+		)
+		(pin "35"
+			(uuid "6ede8063-2f1c-41ae-a68b-99f7bc24a99d")
+		)
+		(pin "37"
+			(uuid "b73af71b-5776-48ac-b2d9-3a7ce62ff84a")
+		)
+		(pin "38"
+			(uuid "0c89c6fe-9605-4200-83c5-614065a34744")
+		)
+		(pin "40"
+			(uuid "328c4956-9dbf-426a-94de-a27332ddd560")
+		)
+		(pin "12"
+			(uuid "c99811e1-e579-426f-806d-3fbd7c9d5b54")
+		)
+		(pin "19"
+			(uuid "12b43efc-5431-4ad8-94f6-2dcf28029ee7")
+		)
+		(pin "17"
+			(uuid "75d1102c-b482-47d1-8712-c5054158b14b")
+		)
+		(pin "16"
+			(uuid "efda523a-6ae9-4ab9-96bb-38e22eec213a")
+		)
+		(pin "18"
+			(uuid "69f4cf41-ddef-486e-96e8-f37f654a5554")
+		)
+		(pin "20"
+			(uuid "25df0933-ca33-489f-b579-5b68bbcfc066")
+		)
+		(pin "1"
+			(uuid "be91def1-89bc-4886-a2ed-2aed8ac17a78")
+		)
+		(pin "2"
+			(uuid "047fceec-bf8e-42dc-b108-926a404b4653")
+		)
+		(pin "7"
+			(uuid "580e551e-00b4-4f28-afe1-313b0d2f8630")
+		)
+		(pin "9"
+			(uuid "34165827-5d73-4015-a7db-2c9ecb650578")
+		)
+		(pin "5"
+			(uuid "1a29f4d5-609b-4c23-9cd5-fe42571f795f")
+		)
+		(pin "4"
+			(uuid "a8071edf-f3d0-42cd-a6fe-055bde5e28e9")
+		)
+		(pin "11"
+			(uuid "02e87503-43f8-4b85-a122-e7647e6bd363")
+		)
+		(pin "6"
+			(uuid "4c41ece5-0f1a-4112-a2d6-681d6329ec85")
+		)
+		(pin "8"
+			(uuid "25763484-be3f-426c-931f-4523b2f84379")
+		)
+		(pin "3"
+			(uuid "30263ce9-4563-4d73-8f9c-9eeaab3aa381")
+		)
+		(pin "10"
+			(uuid "11307e4a-75e0-4cb2-be1c-3b4bea5f848d")
+		)
+		(pin "15"
+			(uuid "1a7a4615-76b7-47ad-994d-258c1b569465")
+		)
+		(pin "42"
+			(uuid "d3d13594-8396-428a-9fba-a1834962a8ba")
+		)
+		(pin "41"
+			(uuid "168e83c6-23c0-44af-8dea-4a72d6f5bb9d")
+		)
+		(pin "28"
+			(uuid "95b164da-85ed-4c80-9cd1-03cb7d605417")
+		)
+		(pin "27"
+			(uuid "7faaaefc-8f6a-4abf-8317-73f71107f4b2")
+		)
+		(pin "30"
+			(uuid "9253a317-73eb-4068-b7b6-7020cec9a735")
+		)
+		(pin "29"
+			(uuid "1add0700-761f-4163-bf53-e42aae95d347")
+		)
+		(pin "32"
+			(uuid "5a45209c-5be1-412e-95da-d38c5219c4a8")
+		)
+		(pin "33"
+			(uuid "4e3b5194-ff6c-4f0c-b73d-635a24e1254f")
+		)
+		(pin "31"
+			(uuid "0a7d1a20-77cb-4350-8af5-0f7a2a225c54")
+		)
+		(pin "34"
+			(uuid "f69712bf-df65-4d59-bbaf-65a313ecef34")
+		)
+		(pin "25"
+			(uuid "db5a3ef3-a41c-4f72-a991-73f5ee359982")
+		)
+		(pin "23"
+			(uuid "e7737aa6-7c8c-4ef7-8fa3-9eeaaade426b")
+		)
+		(pin "26"
+			(uuid "b8219399-916e-4bb2-909f-d31f5ed705ee")
+		)
+		(pin "24"
+			(uuid "4b8ce5ba-b6b4-4665-930e-4f84e925281b")
+		)
+		(pin "14"
+			(uuid "87fde403-d640-41c6-8d30-6bfe34ec9d9d")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
+					(reference "U11")
 					(unit 1)
 				)
 			)
