@@ -2107,6 +2107,200 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 132.08 74.93 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84e9ca73-574b-4045-b22b-4779fd30f642")
+		(property "Reference" "C38"
+			(at 130.81 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 133.35 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 135.89 75.8952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AX" "27730"
+			(at 132.08 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7f90496b-b3f6-49de-8013-f65ccb1ca559")
+		)
+		(pin "1"
+			(uuid "52c4be6d-0bb2-4738-bdeb-72f9c5eb63e2")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 68.58 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9dbc52c0-6f25-473c-9b72-f21469750e11")
+		(property "Reference" "C40"
+			(at 130.81 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 133.35 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 135.89 69.5452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AX" "27730"
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9210121b-aeb9-44cb-ab59-5a6b5b778d01")
+		)
+		(pin "1"
+			(uuid "cd558955-b266-42ad-9364-7c5684383940")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 116.84 116.84 0)
 		(unit 1)
@@ -2268,198 +2462,6 @@
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 132.08 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a62896b3-5610-43ed-9bcd-566992cc7cdb")
-		(property "Reference" "C19"
-			(at 133.35 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 125.73 70.104 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.27 69.5452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "27012"
-			(at 132.08 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f86d627-cb6e-4a62-a0fc-ab8ca6fa4363")
-		)
-		(pin "2"
-			(uuid "a6ed2da4-32ff-457d-87ae-93353fe6128e")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "C21")
-					(unit 1)
-				)
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 132.08 74.93 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b574b17c-a816-422d-abe4-a69344443e94")
-		(property "Reference" "C20"
-			(at 133.35 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 125.73 76.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 128.27 75.8952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 132.08 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "27012"
-			(at 132.08 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce9ba535-1bee-4dda-b531-1bfef360e50e")
-		)
-		(pin "2"
-			(uuid "1fdddd88-0943-498f-9b67-fa0e2f101067")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "C20")
 					(unit 1)
 				)
 			)
