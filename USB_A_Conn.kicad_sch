@@ -1219,6 +1219,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -1376,6 +1491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bf27ede-4516-4f24-8e97-cf24dc78a7dd")
+	)
+	(junction
+		(at 156.21 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c184e64-19ee-4ceb-a705-2d180491a029")
 	)
 	(junction
 		(at 139.7 68.58)
@@ -1758,7 +1879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0134c5a7-6f73-48ae-badc-8e7528b5f133")
-		(property "Reference" "U10"
+		(property "Reference" "U6"
 			(at 117.602 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1849,11 +1970,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "U12")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "U10")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -1871,7 +1992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04dbfef0-3f84-471d-a9da-d65e6e55e2b6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR060"
 			(at 153.67 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -1932,11 +2053,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR051")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR044")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1953,7 +2074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30528128-3111-4481-933a-f1cc5af91187")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR058"
 			(at 116.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2013,11 +2134,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR047")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR040")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2035,7 +2156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc32661-2f66-4cca-92e4-2437559e94a8")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR057"
 			(at 109.22 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2096,11 +2217,94 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR046")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR039")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b6e4f3-befd-4d2c-8cd0-7a2dfd0a2ce7")
+		(property "Reference" "#FLG04"
+			(at 158.115 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 156.21 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "397a5edf-f0ef-4536-8a7d-ec28278cde5c")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
+					(reference "#FLG05")
+					(unit 1)
+				)
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -2118,7 +2322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84e9ca73-574b-4045-b22b-4779fd30f642")
-		(property "Reference" "C38"
+		(property "Reference" "C16"
 			(at 130.81 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2193,11 +2397,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "C39")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "C38")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -2215,7 +2419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dbc52c0-6f25-473c-9b72-f21469750e11")
-		(property "Reference" "C40"
+		(property "Reference" "C15"
 			(at 130.81 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,11 +2494,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "C41")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "C40")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2312,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f3178a9-76bd-45f3-97ed-c98396249e60")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR059"
 			(at 116.84 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2373,11 +2577,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR048")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR041")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2396,7 +2600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a37dcd9c-7ece-4e0a-9f56-74df721a83b2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR055"
 			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2457,11 +2661,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR049")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR042")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2478,7 +2682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd62cd1c-c7fc-4d56-b9f4-316491a02bb5")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 109.982 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,11 +2773,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "U11")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2590,7 +2794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9e7ea0b-7fae-4799-a58d-fd1d02503d21")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR056"
 			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2650,11 +2854,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR045")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR038")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed6e5ba6-ca66-4a0b-9209-10474fd24ba9")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 153.67 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,11 +2971,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2788,7 +2992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee9804f6-e7d1-4359-bbf2-da8985ab873b")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR054"
 			(at 139.7 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2848,11 +3052,11 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/9225d246-3ad2-4927-a45b-bd5165c1e795"
-					(reference "#PWR050")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874/b872fb37-3607-4e08-a4aa-9f2b2b22c725"
-					(reference "#PWR043")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

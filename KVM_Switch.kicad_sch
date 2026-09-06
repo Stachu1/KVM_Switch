@@ -507,7 +507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106ddcd3-6048-4ad8-b9c4-18da7c923891")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR049"
 			(at 152.4 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -567,7 +567,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
-					(reference "#PWR053")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -585,7 +585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b2fd8b2-c510-4396-8ded-adcfd3e14101")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR050"
 			(at 158.75 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -645,7 +645,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
-					(reference "#PWR052")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
