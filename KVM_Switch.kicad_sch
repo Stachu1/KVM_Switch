@@ -290,10 +290,10 @@
 		)
 	)
 	(junction
-		(at 99.06 88.9)
+		(at 93.98 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cce1215d-719e-4770-85fd-c268a70a1212")
+		(uuid "232b81cd-5487-41b5-bdc0-6ad1e095e869")
 	)
 	(wire
 		(pts
@@ -307,16 +307,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "141b1eef-48a2-4dd4-906d-311d6377ed78")
-	)
-	(wire
-		(pts
 			(xy 152.4 80.01) (xy 152.4 86.36)
 		)
 		(stroke
@@ -324,6 +314,16 @@
 			(type default)
 		)
 		(uuid "1df1aace-e9bb-4b81-a0f2-61b70f362c82")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2177980c-2ce6-4382-8b51-9827e7a711a9")
 	)
 	(wire
 		(pts
@@ -347,6 +347,36 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 86.36) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372043a2-6637-4331-8847-23c28a2882ec")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 96.52 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403b3416-5537-4f52-a5eb-132342a8bdc4")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce6ade6-a9dd-42f8-b4f0-11aea6930728")
+	)
+	(wire
+		(pts
 			(xy 139.7 91.44) (xy 139.7 104.14)
 		)
 		(stroke
@@ -367,17 +397,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 99.06 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aaf8add-d5a7-4e44-af18-633c06c78946")
-	)
-	(wire
-		(pts
-			(xy 99.06 69.85) (xy 101.6 69.85)
+			(xy 93.98 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -387,13 +407,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 101.6 109.22)
+			(xy 93.98 111.76) (xy 101.6 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e99b2b3-2c21-4956-9363-53d3f91b78a7")
+	)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0a627f-e7ab-4dca-a559-9432a28fc2cc")
 	)
 	(wire
 		(pts
@@ -407,13 +437,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 101.6 88.9)
+			(xy 96.52 109.22) (xy 96.52 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "959f5733-d281-4bc9-a01e-7d0f8a88e93c")
+		(uuid "9ab1203f-2859-4e03-8875-2857f02b2c08")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75ada65-e14c-4905-a385-eb436321a0bd")
 	)
 	(wire
 		(pts
@@ -447,6 +487,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9bd6f93-53c6-4326-9a2c-3bab5316535d")
+	)
+	(wire
+		(pts
 			(xy 127 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -464,6 +514,16 @@
 			(type default)
 		)
 		(uuid "dc50bd4a-9e13-428e-88ca-b2e3f91af11b")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1295631-8181-42fd-9ebe-e46661e15864")
 	)
 	(wire
 		(pts
@@ -496,12 +556,12 @@
 		(uuid "f35d2495-500f-47cc-af72-2842ba178509")
 	)
 	(label "SW"
-		(at 99.06 88.9 180)
+		(at 96.52 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "66832b2c-6840-4b75-89f6-6adaf579d712")
 	)
@@ -677,7 +737,7 @@
 			(color 255 255 194 1)
 		)
 		(uuid "0e1d684f-830c-4bab-be20-dfd6c92d7874")
-		(property "Sheetname" "UBS_Hub"
+		(property "Sheetname" "USB_Hub"
 			(at 152.4 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -922,7 +982,7 @@
 			)
 		)
 		(pin "SW" input
-			(at 101.6 109.22 180)
+			(at 101.6 111.76 180)
 			(uuid "88fc3960-a631-4550-8f16-f9660048e186")
 			(effects
 				(font
@@ -949,6 +1009,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DET_USB_A" output
+			(at 101.6 106.68 180)
+			(uuid "ea0b5413-5d41-4fd4-adb9-d6fb25dbb88c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DET_USB_B" output
+			(at 101.6 109.22 180)
+			(uuid "661f1d43-feae-4c8f-a867-c25c9e433b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -999,33 +1079,13 @@
 			)
 		)
 		(pin "SW" output
-			(at 101.6 88.9 180)
+			(at 101.6 86.36 180)
 			(uuid "25f80f3f-1cd8-40a9-b13f-40693e868f8d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "DET_A" input
-			(at 127 88.9 0)
-			(uuid "edbe7388-ee5d-4517-a24d-08f1d80eb064")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DET_B" input
-			(at 127 86.36 0)
-			(uuid "337575d7-8575-406a-b500-f69cfc40f679")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "UP_DET" output
@@ -1036,6 +1096,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DET_HDMI_A" input
+			(at 127 88.9 0)
+			(uuid "02510742-13ed-4e3b-931f-ad960484e7d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DET_HDMI_B" input
+			(at 127 86.36 0)
+			(uuid "bf8f3c29-7c56-44bf-8411-c6cf735880b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DET_USB_A" input
+			(at 101.6 91.44 180)
+			(uuid "0f5db2cb-0041-4331-af76-cca8a73c9626")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DET_USB_B" input
+			(at 101.6 88.9 180)
+			(uuid "03c559e2-aae5-4174-9992-58be94da150b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

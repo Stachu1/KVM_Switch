@@ -584,7 +584,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB",
-        "pattern": "*USB*"
+        "pattern": "*USB*_D*"
       },
       {
         "netclass": "I2C",
@@ -787,7 +787,7 @@
         "uuid": "94386106-ccd4-487f-b5c5-d52ec3dd59db"
       }
     ],
-    "used_designators": "#FLG1-8,U1-18,TP1-14,J1-11,#PWR1-80,D1-6,C1-46,R1-30,X1,SW1",
+    "used_designators": "J1-11,#FLG1-8,R1-30,U1-18,TP1-14,#PWR1-80,D1-6,C1-46,X1,SW1",
     "variants": []
   },
   "sheets": [
@@ -797,7 +797,7 @@
     ],
     [
       "0e1d684f-830c-4bab-be20-dfd6c92d7874",
-      "UBS_Hub"
+      "USB_Hub"
     ],
     [
       "f8798a51-c1ff-493a-9d0c-61ef7e8fe77b",

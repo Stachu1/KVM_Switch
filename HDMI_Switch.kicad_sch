@@ -2024,12 +2024,6 @@
 		(uuid "7d14df10-3cc1-474e-8bf4-9a43d825c167")
 	)
 	(junction
-		(at 167.64 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "914c5986-5652-4769-ac91-8727ebe2f539")
-	)
-	(junction
 		(at 171.45 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2291,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 132.08) (xy 181.61 132.08)
+			(xy 158.75 132.08) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2888,16 +2882,6 @@
 			(type default)
 		)
 		(uuid "a8f8477c-b777-485e-8579-126f8821dce4")
-	)
-	(wire
-		(pts
-			(xy 158.75 132.08) (xy 167.64 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a93df086-2417-44a8-a895-e1d3492a1d31")
 	)
 	(wire
 		(pts
@@ -3662,97 +3646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 167.64 135.89 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19d29155-5dc9-4c73-bb47-68e86890062c")
-		(property "Reference" "R18"
-			(at 170.688 135.128 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 170.688 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 169.418 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "201002"
-			(at 167.64 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "749c5ede-4fde-4ebd-955d-cce64ceaa3ea")
-		)
-		(pin "1"
-			(uuid "f5837f64-d839-470a-8722-676bc5075048")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 191.77 125.73 0)
 		(unit 1)
@@ -3980,84 +3873,6 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f2fa2ae-e0b2-45b0-84ca-7bd44f0b1389")
-		(property "Reference" "#PWR029"
-			(at 167.64 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4be2bfac-a92d-4f7c-b539-28746412eded")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)

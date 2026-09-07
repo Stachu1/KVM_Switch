@@ -1509,7 +1509,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+			(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2011,12 +2011,6 @@
 		(uuid "012cd72e-7dcf-4d7e-b244-3392a29e3f22")
 	)
 	(junction
-		(at 176.53 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1238e8b4-9cef-4e0d-9b0d-ca396899e2ba")
-	)
-	(junction
 		(at 165.1 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2029,10 +2023,10 @@
 		(uuid "522251ae-87a0-443b-8977-1aab70253d74")
 	)
 	(junction
-		(at 184.15 101.6)
+		(at 107.95 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a60b8e8-6829-4df9-9fdb-81586208cd9e")
+		(uuid "6e9f7dfe-cd41-4bee-819d-1b1d9cc2ce89")
 	)
 	(junction
 		(at 165.1 81.28)
@@ -2087,6 +2081,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d92588ff-fa35-4966-9a57-6e7530478ac7")
+	)
+	(junction
+		(at 107.95 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e559d8e8-e26e-4de6-a16d-50bbf44190a4")
 	)
 	(no_connect
 		(at 76.2 144.78)
@@ -2146,16 +2146,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10664282-eb91-4d0a-8fee-2ca51deb1d7e")
-	)
-	(wire
-		(pts
 			(xy 76.2 60.96) (xy 77.47 60.96)
 		)
 		(stroke
@@ -2173,6 +2163,16 @@
 			(type default)
 		)
 		(uuid "180986b4-2984-4241-b4c3-56f274a52faf")
+	)
+	(wire
+		(pts
+			(xy 107.95 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bba2e2b-a03f-43d3-9660-0ab1b4a2f50b")
 	)
 	(wire
 		(pts
@@ -2346,17 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 184.15 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a16891-a80f-4dab-aebd-bfbdd629ced1")
-	)
-	(wire
-		(pts
-			(xy 175.26 101.6) (xy 184.15 101.6)
+			(xy 175.26 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2403,6 +2393,16 @@
 			(type default)
 		)
 		(uuid "73facf78-a085-4f7b-898e-ea0efbb77417")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e175d9-db22-46bc-97ec-f568b0e692b2")
 	)
 	(wire
 		(pts
@@ -2493,16 +2493,6 @@
 			(type default)
 		)
 		(uuid "a7054f5b-cee3-4a3e-a929-02b79ccb0e9e")
-	)
-	(wire
-		(pts
-			(xy 184.15 101.6) (xy 184.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac87625c-008d-4c81-9dc8-8e7160c7c977")
 	)
 	(wire
 		(pts
@@ -2874,6 +2864,17 @@
 		)
 		(uuid "f34c2732-53d0-4142-9e3a-35de2845a5d4")
 	)
+	(hierarchical_label "DET_USB_B"
+		(shape output)
+		(at 114.3 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04bbaa5c-194f-4c7e-9faf-a64854754dbe")
+	)
 	(hierarchical_label "USB_UP_DN"
 		(shape bidirectional)
 		(at 190.5 99.06 0)
@@ -2895,6 +2896,17 @@
 			(justify left)
 		)
 		(uuid "bb2d5ca1-145e-4a82-86cc-b06c74964a1c")
+	)
+	(hierarchical_label "DET_USB_A"
+		(shape output)
+		(at 114.3 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2c47f09-8424-4a7e-aa72-16c125059609")
 	)
 	(hierarchical_label "USB_UP_DP"
 		(shape bidirectional)
@@ -4109,97 +4121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 184.15 110.49 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "855c4500-ebf4-4e65-b4be-5a621826ab46")
-		(property "Reference" "R4"
-			(at 187.198 109.728 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 187.198 111.506 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.928 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "201002"
-			(at 184.15 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "299d4612-0cdc-4b9a-801d-f364251b73d7")
-		)
-		(pin "1"
-			(uuid "70ebfadd-3400-4877-8466-69b050c98b63")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 121.92 0)
 		(unit 1)
@@ -4744,7 +4665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TS3USB221AQRSERQ1:TS3USB221AQRSERQ1"
+		(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
