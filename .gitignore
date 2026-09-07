@@ -25,14 +25,6 @@ Thumbs.db
 **/sym_cache/
 **/cache/
 
-# 3D models and exported CAD files
-**/*.3dshapes/
-**/*.wrl
-**/*.step
-**/*.stp
-**/*.stl
-**/*.iges
-
 # Fabrication / generated outputs
 gerbers/
 fab/
