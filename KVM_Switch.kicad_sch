@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "KVM_Switch")
-		(date "2026-08-23")
+		(date "2026-09-07")
 		(rev "A")
+		(company "Stanisław Basiuk")
 	)
 	(lib_symbols
 		(symbol "power:+3V3"
@@ -289,12 +290,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 93.98 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "232b81cd-5487-41b5-bdc0-6ad1e095e869")
-	)
 	(wire
 		(pts
 			(xy 132.08 68.58) (xy 132.08 88.9)
@@ -317,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 99.06 91.44)
+			(xy 101.6 92.71) (xy 99.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -347,13 +342,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 86.36) (xy 93.98 111.76)
+			(xy 101.6 85.09) (xy 99.06 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "372043a2-6637-4331-8847-23c28a2882ec")
+		(uuid "4038620f-2290-4041-b45f-0a74fdc03fb5")
 	)
 	(wire
 		(pts
@@ -387,6 +382,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 87.63) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a17b0c3-145b-443b-8955-2c5034d5ffc6")
+	)
+	(wire
+		(pts
 			(xy 139.7 104.14) (xy 152.4 104.14)
 		)
 		(stroke
@@ -397,13 +402,33 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 101.6 69.85)
+			(xy 101.6 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9782d6-ce17-4b2b-8160-ee74a3c09d11")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76134d77-21a5-4e2f-b98d-5fa041442a16")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 99.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bebb632-2dc0-449d-948c-3909b0608776")
 	)
 	(wire
 		(pts
@@ -417,16 +442,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 93.98 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f0a627f-e7ab-4dca-a559-9432a28fc2cc")
-	)
-	(wire
-		(pts
 			(xy 127 86.36) (xy 129.54 86.36)
 		)
 		(stroke
@@ -437,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 109.22) (xy 96.52 88.9)
+			(xy 96.52 109.22) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 88.9) (xy 101.6 88.9)
+			(xy 96.52 90.17) (xy 101.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -487,16 +502,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 86.36) (xy 101.6 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bd6f93-53c6-4326-9a2c-3bab5316535d")
-	)
-	(wire
-		(pts
 			(xy 127 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -517,7 +522,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 91.44) (xy 99.06 106.68)
+			(xy 99.06 92.71) (xy 99.06 106.68)
 		)
 		(stroke
 			(width 0)
@@ -555,16 +560,6 @@
 		)
 		(uuid "f35d2495-500f-47cc-af72-2842ba178509")
 	)
-	(label "SW"
-		(at 96.52 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66832b2c-6840-4b75-89f6-6adaf579d712")
-	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 152.4 80.01 0)
@@ -577,7 +572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106ddcd3-6048-4ad8-b9c4-18da7c923891")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR056"
 			(at 152.4 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -637,7 +632,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
-					(reference "#PWR049")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -655,7 +650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b2fd8b2-c510-4396-8ded-adcfd3e14101")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR057"
 			(at 158.75 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -715,7 +710,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db"
-					(reference "#PWR050")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1078,16 +1073,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SW" output
-			(at 101.6 86.36 180)
-			(uuid "25f80f3f-1cd8-40a9-b13f-40693e868f8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "UP_DET" output
 			(at 127 91.44 0)
 			(uuid "eae7d75e-1bc6-4e60-92ae-c4ff18d72e4c")
@@ -1119,7 +1104,7 @@
 			)
 		)
 		(pin "DET_USB_A" input
-			(at 101.6 91.44 180)
+			(at 101.6 92.71 180)
 			(uuid "0f5db2cb-0041-4331-af76-cca8a73c9626")
 			(effects
 				(font
@@ -1129,8 +1114,28 @@
 			)
 		)
 		(pin "DET_USB_B" input
-			(at 101.6 88.9 180)
+			(at 101.6 90.17 180)
 			(uuid "03c559e2-aae5-4174-9992-58be94da150b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI_SW" output
+			(at 101.6 85.09 180)
+			(uuid "e0067848-430b-4a67-b6bb-745e427daac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_SW" output
+			(at 101.6 87.63 180)
+			(uuid "e6d8c146-ba9f-460e-81da-48eb4fe68dc9")
 			(effects
 				(font
 					(size 1.27 1.27)

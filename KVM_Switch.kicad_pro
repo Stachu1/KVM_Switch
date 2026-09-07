@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 3.2,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -556,9 +556,9 @@
       },
       {
         "name": "TMDS",
-        "pcb_color": "rgb(0, 255, 255)",
+        "pcb_color": "rgb(0, 227, 255)",
         "priority": 6,
-        "schematic_color": "rgb(0, 255, 255)",
+        "schematic_color": "rgb(0, 227, 255)",
         "tuning_profile": ""
       },
       {
@@ -787,7 +787,7 @@
         "uuid": "94386106-ccd4-487f-b5c5-d52ec3dd59db"
       }
     ],
-    "used_designators": "J1-11,#FLG1-8,R1-30,U1-18,TP1-14,#PWR1-80,D1-6,C1-46,X1,SW1",
+    "used_designators": "#FLG1-8,R1-30,J1-11,U1-18,TP1-14,D1-6,#PWR1-80,C1-46,X1,SW1",
     "variants": []
   },
   "sheets": [

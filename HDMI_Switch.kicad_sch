@@ -5,8 +5,10 @@
 	(uuid "476b87a9-5003-4537-a1de-7ea62243a4eb")
 	(paper "A4")
 	(title_block
-		(date "2026-08-23")
+		(title "KVM_Switch")
+		(date "2026-09-07")
 		(rev "A")
+		(company "Stanisław Basiuk")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -427,7 +429,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:HD3SS215RTQR"
+		(symbol "KVM_Swtich:HD3SS215RTQR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -480,6 +482,17 @@
 			)
 			(property "Description" "6-Gbps HDMI / DisplayPort 2:1 / 1:2 differential switch, 56-pin RTQ VQFN"
 				(at 0 -8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "296-42335-1-ND"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1982,6 +1995,12 @@
 		(uuid "07629126-6e54-4347-96d7-66381c5e45ef")
 	)
 	(junction
+		(at 167.64 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1312155e-cbd8-4533-a9b6-b622c40d2861")
+	)
+	(junction
 		(at 181.61 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2252,6 +2271,16 @@
 			(type default)
 		)
 		(uuid "20d66fc9-a26e-429c-ad69-bb19ff7e6add")
+	)
+	(wire
+		(pts
+			(xy 167.64 133.35) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215ceb18-0b63-4af7-87b2-1164152e2dae")
 	)
 	(wire
 		(pts
@@ -2825,6 +2854,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 140.97) (xy 167.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df1c03f-8100-4cba-8d2e-739268b51399")
+	)
+	(wire
+		(pts
 			(xy 113.03 130.81) (xy 118.11 130.81)
 		)
 		(stroke
@@ -3317,7 +3356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0214fa8d-0926-41e8-a277-529e9d9d2f8f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR07"
 			(at 142.24 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3416,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR027")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3395,7 +3434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06c5bcb1-a5fd-43af-95eb-059652c7de67")
-		(property "Reference" "C19"
+		(property "Reference" "C1"
 			(at 125.476 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +3509,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "C19")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dffedd1-179d-4643-b16e-38351d9bd79c")
-		(property "Reference" "C21"
+		(property "Reference" "C3"
 			(at 202.184 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +3601,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "C21")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3656,7 +3695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20a4b2ed-bd23-4423-8a5a-c36412d9ca90")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR014"
 			(at 191.77 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3717,7 +3756,85 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR031")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "228832bb-a46a-4052-9d45-3555c24aafad")
+		(property "Reference" "#PWR016"
+			(at 167.64 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af016e87-1b15-476f-880c-f9b91b36bf0f")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3734,7 +3851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25620bdf-06cf-4a9c-94e5-3848beb052d3")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR011"
 			(at 199.39 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3795,7 +3912,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR033")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3812,7 +3929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46ef5ddb-9a30-463c-84f4-0d21cfa91607")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 71.12 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,7 +3989,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3889,7 +4006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62472519-0e07-4007-9a95-8f8b0798f800")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR09"
 			(at 171.45 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3949,7 +4066,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR030")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3966,7 +4083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f787bb4-bcb9-44d4-b224-0e5584aa6fdc")
-		(property "Reference" "TP5"
+		(property "Reference" "TP3"
 			(at 175.006 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4143,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4043,7 +4160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f89849a-e4c7-4704-b5ce-19c8a5b4c612")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR015"
 			(at 138.43 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4104,7 +4221,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR026")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4121,7 +4238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72186c96-6f3c-446d-998b-fdb765343bdd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR017"
 			(at 92.71 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4299,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR024")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4199,7 +4316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "777dc530-dc19-429e-8500-df391466c89b")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 94.996 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,7 +4376,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4276,7 +4393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d575e42-6343-4848-9b5c-f0f3fc770e1b")
-		(property "Reference" "R15"
+		(property "Reference" "R5"
 			(at 95.758 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.488 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4329,7 +4446,7 @@
 				)
 			)
 		)
-		(property "AX" "141003"
+		(property "AX" "201003"
 			(at 92.71 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4349,7 +4466,98 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R15")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7df4471e-7fb8-4afa-8030-650964eddbed")
+		(property "Reference" "R8"
+			(at 170.688 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 170.688 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 169.418 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AX" "201002"
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b1b65c1-d3ab-4205-a33e-cd922f0da020")
+		)
+		(pin "1"
+			(uuid "490d84c4-6e3f-45d5-ae46-6aad3f5c6a6f")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4366,7 +4574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bcb3240-4c95-47a5-9c43-5a080cdc3a5c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR08"
 			(at 128.27 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4427,7 +4635,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR025")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bd63215-52b0-42bf-acb1-dfe425151461")
-		(property "Reference" "R16"
+		(property "Reference" "R9"
 			(at 95.758 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.488 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -4497,7 +4705,7 @@
 				)
 			)
 		)
-		(property "AX" "141003"
+		(property "AX" "201003"
 			(at 92.71 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4517,7 +4725,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace6418c-406d-4620-b720-b2ee545ccfd9")
-		(property "Reference" "R21"
+		(property "Reference" "R7"
 			(at 186.69 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4815,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R21")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4624,7 +4832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c432ac2c-bca3-40b9-955e-3c17d3d531de")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 94.996 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,7 +4892,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c46141c9-e603-40ec-8776-ce46215785c3")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR010"
 			(at 199.39 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4761,7 +4969,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR032")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e292dbb7-79c1-473d-8c78-c25198ec7675")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR013"
 			(at 167.64 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4838,7 +5046,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR028")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4855,7 +5063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3cfcc5c-3326-4c81-b706-189ce5fc8c73")
-		(property "Reference" "R17"
+		(property "Reference" "R3"
 			(at 168.402 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4928,7 +5136,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R17")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4946,7 +5154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3f42291-7a81-4376-b282-426df01bca8d")
-		(property "Reference" "C20"
+		(property "Reference" "C2"
 			(at 134.366 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5021,7 +5229,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "C20")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9f6260d-5f85-4639-9974-3f833e7c4206")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR012"
 			(at 92.71 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5099,7 +5307,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "#PWR023")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5116,7 +5324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed37c6fd-2287-4d0a-98aa-226ceef5c9d2")
-		(property "Reference" "R20"
+		(property "Reference" "R6"
 			(at 176.53 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5189,14 +5397,14 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R20")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Symbols:HD3SS215RTQR")
+		(lib_id "KVM_Swtich:HD3SS215RTQR")
 		(at 138.43 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -5206,7 +5414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcafec7f-62b8-4993-b7b8-0bee3778153b")
-		(property "Reference" "U11"
+		(property "Reference" "U5"
 			(at 143.256 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5446,7 +5654,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "U11")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdc6f9cc-6e72-4538-881e-9f48a8e604f0")
-		(property "Reference" "R19"
+		(property "Reference" "R4"
 			(at 174.752 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5536,7 +5744,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R19")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5622,7 +5830,7 @@
 			)
 		)
 		(pin "D0_N" output
-			(at 88.9 49.53 0)
+			(at 88.9 62.23 0)
 			(uuid "830d4728-13f3-400d-a045-a9cc0b309052")
 			(effects
 				(font
@@ -5632,7 +5840,7 @@
 			)
 		)
 		(pin "D0_P" output
-			(at 88.9 46.99 0)
+			(at 88.9 59.69 0)
 			(uuid "d7f3017c-5522-4854-9802-36f7fb198390")
 			(effects
 				(font
@@ -5662,7 +5870,7 @@
 			)
 		)
 		(pin "D2_N" output
-			(at 88.9 62.23 0)
+			(at 88.9 49.53 0)
 			(uuid "d37f1a0a-54e7-4f2a-8764-5f7537e28692")
 			(effects
 				(font
@@ -5672,7 +5880,7 @@
 			)
 		)
 		(pin "D2_P" output
-			(at 88.9 59.69 0)
+			(at 88.9 46.99 0)
 			(uuid "9b120f38-dfb4-49d0-88fb-c4953ff98367")
 			(effects
 				(font
@@ -5799,7 +6007,7 @@
 			)
 		)
 		(pin "D0_N" output
-			(at 88.9 110.49 0)
+			(at 88.9 123.19 0)
 			(uuid "b216fc00-9a9d-489d-ac3f-88ac3e14e8ab")
 			(effects
 				(font
@@ -5809,7 +6017,7 @@
 			)
 		)
 		(pin "D0_P" output
-			(at 88.9 107.95 0)
+			(at 88.9 120.65 0)
 			(uuid "6081fad2-e946-4de6-91cc-4e58aa04a308")
 			(effects
 				(font
@@ -5839,7 +6047,7 @@
 			)
 		)
 		(pin "D2_N" output
-			(at 88.9 123.19 0)
+			(at 88.9 110.49 0)
 			(uuid "140b7081-48b0-45f1-b628-a0a8dfb09713")
 			(effects
 				(font
@@ -5849,7 +6057,7 @@
 			)
 		)
 		(pin "D2_P" output
-			(at 88.9 120.65 0)
+			(at 88.9 107.95 0)
 			(uuid "d6fa73d6-afae-4185-b523-40d4bc227da1")
 			(effects
 				(font
@@ -5976,7 +6184,7 @@
 			)
 		)
 		(pin "D0_N" input
-			(at 181.61 73.66 180)
+			(at 181.61 86.36 180)
 			(uuid "823906cb-80a0-41ee-9405-6f852742cac7")
 			(effects
 				(font
@@ -5986,7 +6194,7 @@
 			)
 		)
 		(pin "D0_P" input
-			(at 181.61 71.12 180)
+			(at 181.61 83.82 180)
 			(uuid "2c3e4059-99e5-4eab-8d0c-b8d8314823f3")
 			(effects
 				(font
@@ -6016,7 +6224,7 @@
 			)
 		)
 		(pin "D2_N" input
-			(at 181.61 86.36 180)
+			(at 181.61 73.66 180)
 			(uuid "f25530bb-3217-4113-9ff7-3c305ed5b230")
 			(effects
 				(font
@@ -6026,7 +6234,7 @@
 			)
 		)
 		(pin "D2_P" input
-			(at 181.61 83.82 180)
+			(at 181.61 71.12 180)
 			(uuid "048f7c11-be40-4e1c-82f8-01f83ba0b86a")
 			(effects
 				(font

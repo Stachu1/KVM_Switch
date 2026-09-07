@@ -5,8 +5,10 @@
 	(uuid "fc5ca2f1-ebc6-457d-b53a-d54cf0947bec")
 	(paper "A4")
 	(title_block
-		(date "2026-08-23")
+		(title "KVM_Switch")
+		(date "2026-09-07")
 		(rev "A")
+		(company "Stanisław Basiuk")
 	)
 	(lib_symbols
 		(symbol "Connector:HDMI_A"
@@ -2236,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539871ee-7167-40e4-aaf1-c956876eb834")
-		(property "Reference" "U14"
+		(property "Reference" "U6"
 			(at 157.48 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,6 +2294,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "296-43875-1-ND"
+			(at 151.13 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "5ef76c91-0111-4786-8a0b-b77e86533633")
 		)
@@ -2325,7 +2338,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59/2cace5ad-1892-4d81-8ded-518bc04706d8"
-					(reference "U14")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2342,7 +2355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cc3440c-9a04-481e-8c8b-3fb309cbe24f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 153.67 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2403,7 +2416,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59/2cace5ad-1892-4d81-8ded-518bc04706d8"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0c0e3ce-e017-4213-a57e-33276fa320d8")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 96.52 127 0)
 			(hide yes)
 			(show_name no)
@@ -2481,7 +2494,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59/2cace5ad-1892-4d81-8ded-518bc04706d8"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -2499,7 +2512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b680e32a-c537-4915-bf9d-dca5f8502651")
-		(property "Reference" "U15"
+		(property "Reference" "U7"
 			(at 157.48 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2555,6 +2568,17 @@
 				)
 			)
 		)
+		(property "DigiKey" "296-43875-1-ND"
+			(at 151.13 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "343e492c-e741-4118-9de4-a27bd1ff28c4")
 		)
@@ -2588,7 +2612,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59/2cace5ad-1892-4d81-8ded-518bc04706d8"
-					(reference "U15")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -2605,7 +2629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7f16083-b8f9-489f-85f9-93939d70b484")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 153.67 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2666,7 +2690,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59/2cace5ad-1892-4d81-8ded-518bc04706d8"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2684,7 +2708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd380f1b-c72c-467c-b593-ef2ad19d144e")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 90.17 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +2837,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59/2cace5ad-1892-4d81-8ded-518bc04706d8"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)

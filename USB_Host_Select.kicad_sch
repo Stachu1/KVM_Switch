@@ -5,8 +5,10 @@
 	(uuid "dade7bee-d5aa-47d7-a69d-df7d79042d40")
 	(paper "A4")
 	(title_block
-		(date "2026-08-23")
+		(title "KVM_Switch")
+		(date "2026-09-07")
 		(rev "A")
+		(company "Stanisław Basiuk")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -1017,6 +1019,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KVM_Swtich:TS3USB221AQRSERQ1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS3USB221AQRSERQ1"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/scds300e/scds300e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Automotive ESD protected high-speed USB 2.0 1:2 multiplexer/demultiplexer switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "296-27719-1-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TS3USB221AQRSERQ1_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TS3USB221AQRSERQ1_1_1"
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "1D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "1D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "2D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "2D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -1480,265 +1752,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:TS3USB221AQRSERQ1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TS3USB221AQRSERQ1"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/scds300e/scds300e.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Automotive ESD protected high-speed USB 2.0 1:2 multiplexer/demultiplexer switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TS3USB221AQRSERQ1_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TS3USB221AQRSERQ1_1_1"
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "1D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "1D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "2D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "2D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2004,6 +2017,16 @@
 		)
 		(uuid "3bbe879a-9151-4a5e-999b-65b75d970fee")
 	)
+	(text "Intentionally swapped D+ with D-"
+		(exclude_from_sim no)
+		(at 136.906 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "479d3dea-09b6-4da6-abb9-13c73e02263a")
+	)
 	(junction
 		(at 77.47 134.62)
 		(diameter 0)
@@ -2083,10 +2106,22 @@
 		(uuid "d92588ff-fa35-4966-9a57-6e7530478ac7")
 	)
 	(junction
+		(at 184.15 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df09116d-95c3-4c99-8f92-6b9402d26377")
+	)
+	(junction
 		(at 107.95 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e559d8e8-e26e-4de6-a16d-50bbf44190a4")
+	)
+	(junction
+		(at 176.53 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fefa7acb-d6de-4af1-9a8c-54e418813831")
 	)
 	(no_connect
 		(at 76.2 144.78)
@@ -2196,7 +2231,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 96.52) (xy 175.26 96.52)
+			(xy 190.5 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2223,6 +2258,16 @@
 			(type default)
 		)
 		(uuid "3216d7f5-8ae1-4b44-bcad-68474eb36c36")
+	)
+	(wire
+		(pts
+			(xy 184.15 104.14) (xy 184.15 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384bfd11-b59a-4f97-b5b9-305837fd096f")
 	)
 	(wire
 		(pts
@@ -2346,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 190.5 101.6)
+			(xy 175.26 101.6) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2396,6 +2441,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 101.6) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755018b1-82ff-401f-a128-708183560a56")
+	)
+	(wire
+		(pts
 			(xy 107.95 53.34) (xy 114.3 53.34)
 		)
 		(stroke
@@ -2436,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 154.94 106.68)
+			(xy 148.59 104.14) (xy 154.94 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 154.94 104.14)
+			(xy 148.59 106.68) (xy 154.94 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2511,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 154.94 99.06)
+			(xy 184.15 111.76) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8962fbac-eb4d-4067-9d70-9304ba4c47f9")
+	)
+	(wire
+		(pts
+			(xy 148.59 96.52) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2656,6 +2721,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 114.3) (xy 176.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a88247-62ba-456c-99a6-dc71c3cafa5f")
+	)
+	(wire
+		(pts
 			(xy 77.47 68.58) (xy 92.71 68.58)
 		)
 		(stroke
@@ -2696,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 175.26 99.06)
+			(xy 190.5 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2791,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 154.94 96.52)
+			(xy 148.59 99.06) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +2820,7 @@
 		(uuid "fcc65a57-dcb7-4e63-a0e0-10e512723b3d")
 	)
 	(label "USB_A_DP"
-		(at 148.59 96.52 180)
+		(at 148.59 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,7 +2880,7 @@
 		(uuid "6c4bc313-4de5-456d-96f7-78074c51bd78")
 	)
 	(label "USB_B_DN"
-		(at 148.59 106.68 180)
+		(at 148.59 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2815,7 +2890,7 @@
 		(uuid "8a1f3440-eb9a-4400-9218-82d5b507e9fc")
 	)
 	(label "USB_A_DN"
-		(at 148.59 99.06 180)
+		(at 148.59 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2835,7 +2910,7 @@
 		(uuid "d41fed9c-71da-4f18-9ea0-a27423a2568f")
 	)
 	(label "USB_B_DP"
-		(at 148.59 104.14 180)
+		(at 148.59 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2877,7 +2952,7 @@
 	)
 	(hierarchical_label "USB_UP_DN"
 		(shape bidirectional)
-		(at 190.5 99.06 0)
+		(at 190.5 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2910,7 +2985,7 @@
 	)
 	(hierarchical_label "USB_UP_DP"
 		(shape bidirectional)
-		(at 190.5 96.52 0)
+		(at 190.5 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2931,7 +3006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "054ccb34-1df4-46a8-93a0-9a1f07fc2cb5")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 60.96 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3124,98 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "J2")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "176bd93f-949c-48c4-8932-070fbc51eda5")
+		(property "Reference" "R18"
+			(at 187.198 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 187.198 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 185.928 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AX" "201002"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e9792f0-9c99-4568-b887-7cade365ec75")
+		)
+		(pin "1"
+			(uuid "0d792530-32e4-4928-bfe0-545c72da0a95")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3067,7 +3233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c734bb5-85aa-4898-9989-e4cbed755d58")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR040"
 			(at 88.9 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3128,7 +3294,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR08")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3146,7 +3312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1caa8760-9b53-4fd5-ba41-6f78b9f2bde9")
-		(property "Reference" "R2"
+		(property "Reference" "R17"
 			(at 81.28 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +3385,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R2")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3236,7 +3402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e537e9f-24c8-417b-9684-9ccfea1a37ca")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 110.744 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,7 +3477,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3328,7 +3494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b36b13-8dd0-4555-9e9b-2b8a7699e636")
-		(property "Reference" "U3"
+		(property "Reference" "U12"
 			(at 98.552 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3585,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U3")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3437,7 +3603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "408bb737-2685-4b50-b20d-68b2f5cc9c09")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR037"
 			(at 160.02 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3498,7 +3664,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR05")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3516,7 +3682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "457eaa64-ba93-4ed1-b0d1-2bd0ba5c3fcd")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR042"
 			(at 97.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3577,7 +3743,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR010")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e212a10-7b8b-463c-8da8-15503bec4143")
-		(property "Reference" "R6"
+		(property "Reference" "R21"
 			(at 81.28 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3834,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R6")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "593a9256-7ffd-452f-b4af-76509afdec01")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR041"
 			(at 107.95 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3747,7 +3913,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR09")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3764,7 +3930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cdd52e4-e3c0-4ef3-a427-75452524e3b8")
-		(property "Reference" "U1"
+		(property "Reference" "U10"
 			(at 98.552 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3855,7 +4021,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U1")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3873,7 +4039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64cfd721-6911-4d4c-86cb-3bb1e732f0e0")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR043"
 			(at 60.96 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -3934,7 +4100,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR011")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3951,7 +4117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6558ae05-0c41-4415-9f08-d708d9f79f30")
-		(property "Reference" "R1"
+		(property "Reference" "R16"
 			(at 81.28 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +4190,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R1")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "823b207b-aa72-49ad-a522-35f91d34f658")
-		(property "Reference" "R5"
+		(property "Reference" "R20"
 			(at 81.28 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4280,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R5")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91714e61-08f7-4083-9533-2a595f4f9157")
-		(property "Reference" "C3"
+		(property "Reference" "C15"
 			(at 110.744 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,7 +4372,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "C3")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4224,7 +4390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a02b2f97-c75c-4d72-be9e-a1bb28d9cbe4")
-		(property "Reference" "R3"
+		(property "Reference" "R19"
 			(at 179.578 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4297,7 +4463,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4314,7 +4480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a646c32a-b171-4928-8545-6c65344826c8")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR036"
 			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4540,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR04")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4392,7 +4558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac845a2b-a35a-41c3-8261-20511671ef4a")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 157.226 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4467,7 +4633,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4485,7 +4651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad8fa6d-ec73-4b6c-abed-b28ec75936b7")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR035"
 			(at 97.79 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4546,7 +4712,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR03")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4564,7 +4730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be96c34c-f206-4451-9c2d-22b194fed583")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR039"
 			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4625,14 +4791,14 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR07")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Symbols:TS3USB221AQRSERQ1")
+		(lib_id "KVM_Swtich:TS3USB221AQRSERQ1")
 		(at 165.1 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -4643,7 +4809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffd698b-61a0-4500-8600-23a726a781ca")
-		(property "Reference" "U2"
+		(property "Reference" "U11"
 			(at 167.2433 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4908,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "U2")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c94edd-d1c7-4a20-b5e4-ced1cc780211")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR033"
 			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4821,7 +4987,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR01")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4839,7 +5005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafca8ac-91e3-4f9a-b1ba-c3ff8627a230")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR038"
 			(at 60.96 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4900,7 +5066,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR06")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4918,7 +5084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e31e89-9a77-40e4-b42c-3da13ed53cfc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR034"
 			(at 107.95 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4979,7 +5145,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "#PWR02")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4997,7 +5163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcbc3e8c-7aa4-4e69-a86f-1e740ae262b9")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 60.96 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5115,7 +5281,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/e397aa06-0b86-4196-a73c-4d06e82b65f2"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
