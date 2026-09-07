@@ -2542,7 +2542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
+		(property "Datasheet" "https://docs.rs-online.com/98ef/A700000006783946.pdf"
 			(at 100.965 88.9 0)
 			(hide yes)
 			(show_name no)
