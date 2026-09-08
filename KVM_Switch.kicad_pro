@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -160,8 +160,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -585,8 +585,8 @@
         "tuning_profile": ""
       },
       {
-        "diff_pair_gap": 0.13,
-        "diff_pair_width": 0.22,
+        "diff_pair_gap": 0.17,
+        "diff_pair_width": 0.27,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 0)",
         "priority": 8,
