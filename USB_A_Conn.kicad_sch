@@ -2938,7 +2938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+		(property "Footprint" "KVM_Swtich:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 			(at 149.86 114.3 0)
 			(hide yes)
 			(show_name no)
