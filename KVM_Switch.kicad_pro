@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.3,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
           "pad_connection": 1,
@@ -218,12 +218,12 @@
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 50,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 1.2
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -578,7 +578,7 @@
         "pcb_color": "rgb(0, 227, 255)",
         "priority": 6,
         "schematic_color": "rgb(0, 227, 255)",
-        "tuning_profile": "",
+        "tuning_profile": "TMDS",
         "via_diameter": 0.45
       },
       {
@@ -589,13 +589,13 @@
         "tuning_profile": ""
       },
       {
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.24,
+        "diff_pair_gap": 0.14,
+        "diff_pair_width": 0.23,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 0)",
         "priority": 8,
         "schematic_color": "rgb(0, 255, 0)",
-        "tuning_profile": "",
+        "tuning_profile": "USB",
         "via_diameter": 0.45,
         "via_drill": 0.3
       }
@@ -871,18 +871,44 @@
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5677200,
-            "diff_pair_gap": 0,
+            "delay": 5705300,
+            "diff_pair_gap": 170000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
+            "width": 200000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5705300,
+            "diff_pair_gap": 170000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In2.Cu",
             "width": 200000
           }
         ],
         "profile_name": "TMDS",
         "target_impedance": 100.0,
-        "type": 0,
+        "type": 1,
         "via_overrides": [],
-        "via_prop_delay": 0
+        "via_prop_delay": 6000000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5710900,
+            "diff_pair_gap": 140000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 230000
+          }
+        ],
+        "profile_name": "USB",
+        "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 6000000
       }
     ]
   }

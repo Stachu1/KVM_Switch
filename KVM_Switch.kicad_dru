@@ -1,5 +1,16 @@
 (version 1)
-(rule "DiffPair-to-GND"
-  (constraint clearance (min 0.6mm))
-  (condition "A.NetClass == 'DiffPair' && B.NetName == 'GND'")
+
+(rule TMDS_HDMI_IN_A
+	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_IN_A/*'")
+	(constraint length (min 200ps) (opt 201ps) (max 202ps))
+)
+
+(rule TMDS_HDMI_IN_B
+	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_IN_B/*'")
+	(constraint length (min 167.5ps) (opt 168.5ps) (max 169.5ps))
+)
+
+(rule TMDS_HDMI_OUT
+	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_OUT/*'")
+	(constraint length (min 135ps) (opt 136ps) (max 137ps))
 )

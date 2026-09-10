@@ -12,7 +12,7 @@
     "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
-      "images": 0.6,
+      "images": 0.5099999904632568,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
@@ -51,7 +51,6 @@
       "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes",
       "ly_points"
@@ -110,16 +109,16 @@
       103,
       103,
       103,
-      103
+      416
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "",
+    "filter_text": "TMDS",
     "group_by_constraint": false,
     "group_by_netclass": false,
-    "show_time_domain_details": false,
+    "show_time_domain_details": true,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -127,7 +126,32 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "KVM_Switch.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 2,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1168
+        }
+      },
+      {
+        "name": "KVM_Switch.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": -1927,
+          "pos_y": 102,
+          "size_x": 974,
+          "size_y": 1039
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],
