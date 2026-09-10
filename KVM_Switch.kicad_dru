@@ -14,3 +14,8 @@
 	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_OUT/*'")
 	(constraint length (min 135ps) (opt 136ps) (max 137ps))
 )
+
+(rule USB_Intra_Pair_Skew
+  (condition "A.hasNetClass('USB') && A.inDiffPair('*') && AB.isCoupledDiffPair()")
+  (constraint skew (opt 0mil) (max 5mil))
+)
