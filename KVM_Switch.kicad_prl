@@ -109,13 +109,13 @@
       103,
       103,
       103,
-      416
+      433
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "TMDS",
+    "filter_text": "USB",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_time_domain_details": true,
@@ -148,7 +148,7 @@
           "pos_x": -1927,
           "pos_y": 102,
           "size_x": 974,
-          "size_y": 1039
+          "size_y": 1032
         }
       }
     ]
