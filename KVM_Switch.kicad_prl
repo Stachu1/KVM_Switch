@@ -8,7 +8,13 @@
       "+5V",
       "GND"
     ],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "VBUS",
+      "GND",
+      "+3V3",
+      "Net-(J7-GND2)",
+      "Net-(J8-GND2)"
+    ],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
     "opacity": {
