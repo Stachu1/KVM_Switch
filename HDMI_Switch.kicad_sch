@@ -2025,6 +2025,12 @@
 		(uuid "4e818b54-2a5e-42ce-a643-b39a0e3a6fbf")
 	)
 	(junction
+		(at 176.53 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4feb2f9f-ad50-4905-ba53-58b0a70a0eb4")
+	)
+	(junction
 		(at 142.24 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2314,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 132.08) (xy 181.61 132.08)
+			(xy 158.75 132.08) (xy 176.53 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2761,6 +2767,16 @@
 			(type default)
 		)
 		(uuid "89e20b54-e38d-473b-afde-53970e84a815")
+	)
+	(wire
+		(pts
+			(xy 176.53 132.08) (xy 181.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4c5d68-b6b6-4a06-a652-ff49f7983ebc")
 	)
 	(wire
 		(pts
@@ -4074,6 +4090,83 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 176.53 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "652db7fa-849e-4bbd-8d5a-14ca54b69007")
+		(property "Reference" "TP5"
+			(at 176.53 137.414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 135.382 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6301d99-3439-4edb-8f5e-6d33c68a2f05")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 181.61 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -4316,7 +4409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "777dc530-dc19-429e-8500-df391466c89b")
-		(property "Reference" "TP5"
+		(property "Reference" "TP16"
 			(at 94.996 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4469,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "TP5")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -4393,7 +4486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d575e42-6343-4848-9b5c-f0f3fc770e1b")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 95.758 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,7 +4559,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4484,7 +4577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7df4471e-7fb8-4afa-8030-650964eddbed")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 170.688 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +4650,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4652,7 +4745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bd63215-52b0-42bf-acb1-dfe425151461")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 95.758 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +4818,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4742,7 +4835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace6418c-406d-4620-b720-b2ee545ccfd9")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 186.69 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4815,7 +4908,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5063,7 +5156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3cfcc5c-3326-4c81-b706-189ce5fc8c73")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 168.402 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5136,7 +5229,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5324,7 +5417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed37c6fd-2287-4d0a-98aa-226ceef5c9d2")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 176.53 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5490,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcafec7f-62b8-4993-b7b8-0bee3778153b")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 143.256 49.022 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5747,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5671,7 +5764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdc6f9cc-6e72-4538-881e-9f48a8e604f0")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 174.752 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +5837,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/6e43926c-16e0-4a92-a7fc-ce5a89c8ce59"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)

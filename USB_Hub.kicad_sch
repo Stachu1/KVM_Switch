@@ -11,6 +11,129 @@
 		(company "Stanisław Basiuk")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1764,7 +1887,7 @@
 	)
 	(text "24 MHz +/- 350 ppm\nInternal 1Mohm resistor\nDatasheet 7.1\nC=2*(C_{L}-C_{stray})=10pF"
 		(exclude_from_sim no)
-		(at 53.086 58.928 0)
+		(at 53.086 60.452 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1879,6 +2002,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86d20d05-f276-445c-b131-4add129d1314")
+	)
+	(junction
+		(at 72.39 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a9094d9-b312-4d8a-84f8-b5d229c6bca2")
 	)
 	(junction
 		(at 165.1 36.83)
@@ -2197,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "2d55b1fe-a964-4cb7-83da-04aa261d2285")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 72.39 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2daa7f5c-607c-400f-a6be-ec89b368108b")
 	)
 	(wire
 		(pts
@@ -2680,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 55.88) (xy 72.39 52.07)
+			(xy 72.39 55.88) (xy 72.39 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5535,6 +5674,83 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7275f00-9cef-4a9f-a6e4-fbbb9d890adc")
+		(property "Reference" "TP17"
+			(at 65.786 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.088 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d8e4c0f-6faa-4b25-88c0-037e5daa4407")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/0e1d684f-830c-4bab-be20-dfd6c92d7874"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
