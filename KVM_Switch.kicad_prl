@@ -4,16 +4,14 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
-      "+3V3",
       "+5V",
       "GND"
     ],
     "hidden_nets": [
       "VBUS",
       "GND",
-      "+3V3",
-      "Net-(J7-GND2)",
-      "Net-(J8-GND2)"
+      "Net-(U10-VBUS)",
+      "Net-(U12-VBUS)"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
@@ -31,7 +29,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -153,7 +151,7 @@
           "maximized": false,
           "pos_x": -1927,
           "pos_y": 102,
-          "size_x": 1223,
+          "size_x": 1077,
           "size_y": 1032
         }
       }

@@ -1477,6 +1477,12 @@
 		)
 	)
 	(junction
+		(at 156.21 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "036d0bd5-af40-4ca4-a74f-e069a33b19c0")
+	)
+	(junction
 		(at 139.7 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1495,10 +1501,10 @@
 		(uuid "6bf27ede-4516-4f24-8e97-cf24dc78a7dd")
 	)
 	(junction
-		(at 156.21 116.84)
+		(at 153.67 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c184e64-19ee-4ceb-a705-2d180491a029")
+		(uuid "8f0b73d4-3c9c-435f-b1ff-0a29bb083ea9")
 	)
 	(junction
 		(at 139.7 68.58)
@@ -1648,13 +1654,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 116.84) (xy 156.21 116.84)
+			(xy 153.67 116.84) (xy 153.67 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bc4cd6c-1ebe-4c12-a0d7-656e26ffc93a")
+		(uuid "460a1572-8c6f-4f15-a1e0-8c4ea7ed90e4")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed157ef-f8a7-458b-a1a0-4d33d3ee47b4")
 	)
 	(wire
 		(pts
@@ -1818,13 +1834,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 115.57) (xy 153.67 118.11)
+			(xy 153.67 115.57) (xy 153.67 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e714ab7b-d428-499a-be2c-ee227dae9d1a")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 156.21 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed52af7b-d2bf-4c9f-972a-fd3dcd1f057f")
+	)
+	(wire
+		(pts
+			(xy 151.13 116.84) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dbc6f5-e5c9-4b30-a3a6-a85c689468a2")
 	)
 	(label "USB2_CONN_DN"
 		(at 128.27 105.41 0)
@@ -2271,7 +2307,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 156.21 116.84 270)
+		(at 157.48 116.84 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2282,7 +2318,7 @@
 		(fields_autoplaced yes)
 		(uuid "84b6e4f3-befd-4d2c-8cd0-7a2dfd0a2ce7")
 		(property "Reference" "#FLG05"
-			(at 158.115 116.84 0)
+			(at 159.385 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2293,7 +2329,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 160.02 116.8399 90)
+			(at 161.29 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2304,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 116.84 0)
+			(at 157.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2315,7 +2351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 116.84 0)
+			(at 157.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2326,7 +2362,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 156.21 116.84 0)
+			(at 157.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
