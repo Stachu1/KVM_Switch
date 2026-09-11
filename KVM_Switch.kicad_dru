@@ -2,20 +2,37 @@
 
 (rule TMDS_HDMI_IN_A
 	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_IN_A/*'")
-	(constraint length (min 200ps) (opt 201ps) (max 202ps))
+	(constraint length (min 197ps) (opt 201ps) (max 205ps))
 )
 
 (rule TMDS_HDMI_IN_B
 	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_IN_B/*'")
-	(constraint length (min 167.5ps) (opt 168.5ps) (max 169.5ps))
+	(constraint length (min 164.5ps) (opt 168.5ps) (max 172.5ps))
 )
 
 (rule TMDS_HDMI_OUT
 	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_OUT/*'")
-	(constraint length (min 135ps) (opt 136ps) (max 137ps))
+	(constraint length (min 132ps) (opt 136ps) (max 140ps))
 )
 
-(rule USB_Intra_Pair_Skew
-  (condition "A.hasNetClass('USB') && A.inDiffPair('*') && AB.isCoupledDiffPair()")
-  (constraint skew (opt 0mil) (max 5mil))
+
+(rule "TMDS copper pour clearance"
+    (condition "A.NetClass == 'TMDS' && B.Type == 'zone'")
+    (constraint clearance (min 0.5mm))
+)
+
+(rule "Copper pour clearance from TMDS"
+    (condition "B.NetClass == 'TMDS' && A.Type == 'zone'")
+    (constraint clearance (min 0.5mm))
+)
+
+
+(rule "USB copper pour clearance"
+    (condition "A.NetClass == 'USB' && B.Type == 'zone'")
+    (constraint clearance (min 0.5mm))
+)
+
+(rule "Copper pour clearance from USB"
+    (condition "B.NetClass == 'USB' && A.Type == 'zone'")
+    (constraint clearance (min 0.5mm))
 )
