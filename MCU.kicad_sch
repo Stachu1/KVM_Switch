@@ -3262,7 +3262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "017db9e7-3003-43cf-8ef5-75be56180a04")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 176.53 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3322,7 +3322,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f59d904-2a59-4dcb-9dc2-ec88b2fd8a9f")
-		(property "Reference" "TP14"
+		(property "Reference" "TP15"
 			(at 126.746 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +3779,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP14")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -3796,7 +3796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3793505f-5ad8-4f95-987e-90bead43efff")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 145.796 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3856,7 +3856,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP13")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -3971,7 +3971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55976cf6-974d-45c9-bc99-236556c87a16")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 92.202 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4031,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "560f2909-35c5-4021-8a34-ef94c5d39a33")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 191.77 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4108,7 +4108,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4126,7 +4126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61bcef3f-d566-439e-896c-77fa5b0b363c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 212.09 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4187,7 +4187,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62a88f16-bfb8-43d4-81b6-c9dcd5c4ce97")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 126.746 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4264,7 +4264,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62e3d88e-5429-4b4d-9959-eb1a41eb5b33")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 114.3 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4343,7 +4343,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4361,7 +4361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6313148e-fda9-456e-867f-544824799da0")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 145.288 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4421,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP10")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64afbd10-a766-4c70-9e23-20891ff84d74")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 191.77 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +4500,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4699,7 +4699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e454160-183c-48c0-bbea-eea1d5b151a9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 119.38 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4759,7 +4759,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4777,7 +4777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "948cf227-c7d0-47ae-b96c-3311c772c233")
-		(property "Reference" "TP11"
+		(property "Reference" "TP12"
 			(at 145.288 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4837,7 +4837,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP11")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -4854,7 +4854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96cc4808-601f-44c4-80a1-4a8e7f95f071")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 101.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4914,7 +4914,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4932,7 +4932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1322d60-be65-4f99-93d6-52a24b76ca83")
-		(property "Reference" "U9"
+		(property "Reference" "U12"
 			(at 121.5233 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5086,7 +5086,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "U9")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5571,7 +5571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8366823-fea4-42b9-869b-10880471f3d7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 265.43 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5632,7 +5632,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d778e766-b5a6-49a2-9414-8ed5d66054b5")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 145.796 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5801,7 +5801,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "TP12")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f79553c7-fd78-4fed-aa92-b63641d8f27c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 119.38 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6167,7 +6167,7 @@
 		(instances
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)

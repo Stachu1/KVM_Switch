@@ -9,9 +9,7 @@
     ],
     "hidden_nets": [
       "VBUS",
-      "GND",
-      "Net-(U10-VBUS)",
-      "Net-(U12-VBUS)"
+      "GND"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
@@ -130,32 +128,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "KVM_Switch.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 2,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1168
-        }
-      },
-      {
-        "name": "KVM_Switch.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": -1927,
-          "pos_y": 102,
-          "size_x": 1077,
-          "size_y": 1032
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "hierarchy_collapsed": [],
