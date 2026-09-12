@@ -2118,7 +2118,7 @@
 		(uuid "a053f5ce-33ef-446e-b9ed-85387f9081d0")
 	)
 	(label "SCL"
-		(at 137.16 132.08 0)
+		(at 137.16 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2126,6 +2126,16 @@
 			(justify left bottom)
 		)
 		(uuid "a3ee25eb-dd6c-4dc0-852e-41cc3914d48e")
+	)
+	(label "5V"
+		(at 137.16 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abd65eb1-4614-4c31-be65-12d632989f7d")
 	)
 	(label "D0_P"
 		(at 180.34 90.17 180)
@@ -2146,16 +2156,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8d6ec8c-ce90-4a09-840e-1bfafbff0b8c")
-	)
-	(label "CEC"
-		(at 137.16 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba7e9a03-3391-4e5a-9199-45639de612e3")
 	)
 	(label "D1_N"
 		(at 180.34 87.63 180)
@@ -2238,7 +2238,7 @@
 		(uuid "f08490f8-292d-42eb-b113-a8e0c9762689")
 	)
 	(label "SDA"
-		(at 137.16 139.7 0)
+		(at 137.16 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
