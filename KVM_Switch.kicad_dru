@@ -21,6 +21,11 @@
     (constraint clearance (min 0.5mm))
 )
 
+(rule "TMDS copper pour clearance"
+    (condition "A.NetClass == 'TMDS' && B.Type == 'zone' && B.Name == 'TMDS_GND_EXEMPT'")
+    (constraint clearance (min 0.15mm))
+)
+
 
 (rule "USB copper pour clearance"
     (condition "A.NetClass == 'USB' && B.Type == 'zone'")

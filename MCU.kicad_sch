@@ -3643,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KVM_Switch:EVQ-Q2K03W"
+		(property "Footprint" "KVM_Switch:UK-B0206-G5-250-JZ"
 			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3676,7 +3676,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "P12943SCT-ND"
+		(property "LCSC" "C780491"
 			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)

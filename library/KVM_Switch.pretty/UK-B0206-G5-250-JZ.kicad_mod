@@ -1,0 +1,121 @@
+(footprint "UK-B0206-G5-250-JZ"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7371be16-0065-431a-a3ca-7082f905c9c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "UK-B0206-G5-250-JZ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bbc715f8-caa1-44e4-842d-c66722cb72db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb90af0f-2f2c-414f-a520-ccf75e9d95bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "769d69d0-109a-403a-926c-bd0e7f563883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.1 -2.2)
+		(end 4.1 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d1fde94a-f618-4dc3-ac21-845e5f55ff41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89b95fd1-413b-41d3-87ef-fc32b2505549")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.25 -1.5)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cbf9d7c1-f01b-4a7b-9cd9-1e4347aa49ba")
+	)
+	(pad "2" smd roundrect
+		(at 3.25 -1.5)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "66280ffc-6103-4d28-a3ef-572c1c19869a")
+	)
+	(pad "3" smd roundrect
+		(at -3.25 1.5)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "9aa7be10-e873-41e2-9f72-3e1e06db67f5")
+	)
+	(pad "4" smd roundrect
+		(at 3.25 1.5)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0294878c-dc4a-4a7a-912c-fa5749535ac3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.65 0.65 0.65)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
