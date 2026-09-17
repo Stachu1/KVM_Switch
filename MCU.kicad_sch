@@ -3340,7 +3340,7 @@
 		(dnp no)
 		(uuid "0d77c6d8-5ba3-4ae7-8e7b-f2072313e671")
 		(property "Reference" "D2"
-			(at 184.658 134.366 0)
+			(at 178.816 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3351,6 +3351,7 @@
 		)
 		(property "Value" "SK6812MINI-E"
 			(at 184.658 136.906 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3394,7 +3395,7 @@
 				)
 			)
 		)
-		(property "AX" "owned"
+		(property "LCSC" "C5149201"
 			(at 176.53 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3421,6 +3422,105 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 252.73 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10bedcab-2bf4-4c8d-8b02-602826d2ab2c")
+		(property "Reference" "D6"
+			(at 255.016 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 260.858 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 254 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 255.27 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 252.73 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 252.73 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08f90134-4bfb-4227-8e00-71b1695d0fab")
+		)
+		(pin "4"
+			(uuid "27d20cf6-79ee-48b2-9a8c-98c3ed0b0a29")
+		)
+		(pin "2"
+			(uuid "758d91f5-30ba-4118-afe2-ce91494eb297")
+		)
+		(pin "3"
+			(uuid "a172dff8-5a36-4379-a8f9-c52203b56859")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3863,104 +3963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
-		(at 233.68 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "413dd617-8d7b-428e-9a75-5408199a8154")
-		(property "Reference" "D5"
-			(at 241.808 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 241.808 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 234.95 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 236.22 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 233.68 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "owned"
-			(at 233.68 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9091304-97fb-4230-883b-2da6371794c0")
-		)
-		(pin "4"
-			(uuid "d61022d5-bf6b-4ae0-be2d-bbee132c9455")
-		)
-		(pin "2"
-			(uuid "7937d3e0-9606-46e4-8ca6-89e7046f6d1e")
-		)
-		(pin "3"
-			(uuid "229c8cf9-e672-44c6-9593-4546c247e620")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 99.06 78.74 90)
 		(unit 1)
@@ -4109,6 +4111,105 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 233.68 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e79a38a-e0bf-4690-adc4-90f02f31d892")
+		(property "Reference" "D5"
+			(at 235.966 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 241.808 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 234.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 236.22 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 233.68 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 233.68 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f568697-aa29-4dc5-aaa6-5df28d01813d")
+		)
+		(pin "4"
+			(uuid "93625aec-806e-4252-870b-1d0b30bdcd09")
+		)
+		(pin "2"
+			(uuid "0d040504-7043-49bb-aa11-4afd582b9bad")
+		)
+		(pin "3"
+			(uuid "66dd7fbc-fde4-484c-b28a-ba82c951dbf1")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4921,6 +5022,105 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 195.58 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a809d013-e6fa-4d6b-ba74-ff2f022f349b")
+		(property "Reference" "D3"
+			(at 197.866 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 203.708 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 196.85 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 198.12 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 195.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 195.58 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55392f06-7261-4f97-bbfe-9c26f0e87cf2")
+		)
+		(pin "4"
+			(uuid "37081739-23dd-4c25-bfbd-a768a6cb7e93")
+		)
+		(pin "2"
+			(uuid "a85fc0ee-ef9e-4395-a428-e29bc5514cff")
+		)
+		(pin "3"
+			(uuid "867bb5e7-b5ab-4303-8c6b-570b0f84880f")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32C0:STM32C031G6Ux")
 		(at 119.38 96.52 0)
 		(unit 1)
@@ -5179,104 +5379,6 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI-E")
-		(at 195.58 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b89b5103-d702-4510-bdcd-1d5a91d3c32b")
-		(property "Reference" "D3"
-			(at 203.708 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 203.708 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 196.85 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 198.12 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "owned"
-			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d8140ad-a64d-4aa7-9188-e002523ca3f3")
-		)
-		(pin "4"
-			(uuid "64297474-34b1-4606-ae75-c97b31495d18")
-		)
-		(pin "2"
-			(uuid "afeee4a7-0044-4b69-bd91-a9de73f5f5e7")
-		)
-		(pin "3"
-			(uuid "3361ff78-5a02-449d-8cb9-66efdcd4f6bb")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5731,6 +5833,105 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:SK6812MINI-E")
+		(at 214.63 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce0c2806-f770-4982-8aa3-1fb3bbd04983")
+		(property "Reference" "D4"
+			(at 216.916 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 222.758 136.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+			(at 215.9 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+			(at 217.17 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 214.63 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 214.63 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01d558dd-ccd5-4c9c-a7a8-e1f60d70035b")
+		)
+		(pin "4"
+			(uuid "013c4b08-a362-4726-bec0-718359d5a28b")
+		)
+		(pin "2"
+			(uuid "d7bc4d54-225f-45f5-adb0-bbf7e034c1eb")
+		)
+		(pin "3"
+			(uuid "4f161639-4a63-445d-9bd6-45715bd6fa99")
+		)
+		(instances
+			(project "KVM_Switch"
+				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 138.43 106.68 270)
 		(unit 1)
@@ -5802,104 +6003,6 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
 					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI-E")
-		(at 252.73 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de5d8d94-b53b-4500-a1ca-8fa7264f720b")
-		(property "Reference" "D6"
-			(at 260.858 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 260.858 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 254 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 255.27 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 252.73 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "owned"
-			(at 252.73 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34365ca2-6350-407a-8c10-7f0df4de513f")
-		)
-		(pin "4"
-			(uuid "44db4e57-42da-430d-8c12-ac314eac6f99")
-		)
-		(pin "2"
-			(uuid "285c99d3-dcfd-4d16-8fc7-ba8752babe3d")
-		)
-		(pin "3"
-			(uuid "d590f439-8271-4272-87c0-b9d665cb035e")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5991,104 +6094,6 @@
 			(project "KVM_Switch"
 				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI-E")
-		(at 214.63 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f46e7e3e-98ab-4e97-b9c2-768ef5d53d09")
-		(property "Reference" "D4"
-			(at 222.758 134.366 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812MINI-E"
-			(at 222.758 136.906 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 215.9 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 217.17 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AX" "owned"
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df168000-a696-469a-b60d-5fa9cb66cc41")
-		)
-		(pin "4"
-			(uuid "479a4ea8-4fe5-4d4b-bbec-241b37f351c6")
-		)
-		(pin "2"
-			(uuid "b535585f-0ad7-49e4-a6cb-3b05636a4cef")
-		)
-		(pin "3"
-			(uuid "4906bad2-fbbc-4be7-bc2a-6f7eb83729f4")
-		)
-		(instances
-			(project "KVM_Switch"
-				(path "/94386106-ccd4-487f-b5c5-d52ec3dd59db/f8798a51-c1ff-493a-9d0c-61ef7e8fe77b"
-					(reference "D4")
 					(unit 1)
 				)
 			)

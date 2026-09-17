@@ -33,12 +33,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -80,6 +82,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -87,6 +90,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -152,8 +156,9 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.16 0)
+			(at 2 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7de6f5fe-4ef9-4fac-bd48-903f5e71c364")
 			(effects
 				(font
@@ -315,6 +320,7 @@
 		(property "Reference" "R7"
 			(at 0 -1.17 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5578ad0d-6aa6-4e65-ba34-aac458ee2b53")
 			(effects
 				(font
@@ -476,7 +482,8 @@
 		(property "Reference" "C6"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
-			(uuid "877c3fd6-bb74-4c0e-893f-a3f587550c13")
+			(hide yes)
+			(uuid "6dcca4bb-646c-4b7c-8777-4b200198f038")
 			(effects
 				(font
 					(size 1 1)
@@ -487,7 +494,7 @@
 		(property "Value" "1u"
 			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "29ccca46-8913-4834-8636-ad0c3268a060")
+			(uuid "45b11f2a-8bd2-4076-942a-8558ede7f70e")
 			(effects
 				(font
 					(size 1 1)
@@ -499,7 +506,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f16411f0-7794-4d6e-ad35-104ed9457623")
+			(uuid "f272d845-c4e9-4fe0-a397-aa19af8b888f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,7 +517,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1749be64-d0ab-424b-af83-57409ed0aa1e")
+			(uuid "e0acc643-2f85-46f2-b668-8f917089ceaa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +642,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U18"
-			(at 0 -2.4 90)
+			(at 0 -3.2 180)
 			(layer "F.SilkS")
 			(uuid "03c6badb-f969-4cac-91c2-96199e9ae16a")
 			(effects
@@ -999,7 +1006,7 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J5"
-			(at 0 -5.5 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d47ba6eb-642f-4076-b4da-45b97f8e924f")
@@ -1395,6 +1402,7 @@
 		(property "Reference" "R17"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "02d24d2f-43be-45f5-b0fc-fa35f57c41c7")
 			(effects
 				(font
@@ -1556,6 +1564,7 @@
 		(property "Reference" "R14"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aee982b2-764d-4907-9957-a3982fdf8817")
 			(effects
 				(font
@@ -1715,6 +1724,7 @@
 		(property "Reference" "C22"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "37fe52a2-fc7c-4c4a-9992-bf4cf08529a0")
 			(effects
 				(font
@@ -1876,6 +1886,7 @@
 		(property "Reference" "TP4"
 			(at -1 -1.448 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4ea95708-b751-4385-99a4-b5aca9cb842d")
 			(effects
 				(font
@@ -1986,6 +1997,7 @@
 		(property "Reference" "C16"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f7b095be-f27d-4eba-bca9-18a95e03e674")
 			(effects
 				(font
@@ -2147,6 +2159,7 @@
 		(property "Reference" "TP16"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a6d75bcd-7472-4cd9-90b9-c8cf876a6568")
 			(effects
 				(font
@@ -2448,6 +2461,7 @@
 		(property "Reference" "C1"
 			(at 0 -1.16 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a2225f4d-64c6-4d77-b433-ace45d489776")
 			(effects
 				(font
@@ -2607,7 +2621,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U20"
-			(at 0 -2.4 90)
+			(at 0 3.2 180)
 			(layer "F.SilkS")
 			(uuid "39048733-3546-4344-9a1b-d6d3b3102d75")
 			(effects
@@ -2972,6 +2986,7 @@
 			(at 0 -2.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "826bbee2-0e91-4a36-91fa-2f38cfb2c69f")
 			(effects
 				(font
@@ -3128,6 +3143,7 @@
 		(property "Reference" "R27"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "28884fd1-065f-4409-ad7d-825b2e0185bd")
 			(effects
 				(font
@@ -3289,6 +3305,7 @@
 		(property "Reference" "R3"
 			(at 0 -1.17 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a3e5ed16-075f-4685-97f6-4d0da23c932e")
 			(effects
 				(font
@@ -3447,7 +3464,7 @@
 		(uuid "2bb6d5ef-cda0-4bd8-9b4d-afe610a87b46")
 		(at 148 100)
 		(property "Reference" "U14"
-			(at 0 -2.05 0)
+			(at -3.8 0 0)
 			(layer "F.SilkS")
 			(uuid "c737172b-e1e5-4f64-bf5c-e487d97ff6b7")
 			(effects
@@ -3709,6 +3726,7 @@
 		(property "Reference" "R28"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "81096592-fcea-4f92-82c2-36e8be8a9afd")
 			(effects
 				(font
@@ -3870,6 +3888,7 @@
 		(property "Reference" "R26"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c694f18c-2481-49b0-a812-a69f28eddb43")
 			(effects
 				(font
@@ -4031,6 +4050,7 @@
 		(property "Reference" "C13"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "efdc8f63-7d6f-498d-af05-e5b25b53afc6")
 			(effects
 				(font
@@ -4190,7 +4210,7 @@
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
-			(at 0 -2.4 90)
+			(at 0 3.2 180)
 			(layer "F.SilkS")
 			(uuid "57946498-caf5-4d00-a65d-245730ed1eb1")
 			(effects
@@ -4594,7 +4614,7 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J4"
-			(at 0 -5.5 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "57a64716-4335-40be-b121-d76ecc9bd5d5")
@@ -4990,6 +5010,7 @@
 		(property "Reference" "R9"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0f650f9a-c7e7-4cc7-ab2b-b399feaa97ee")
 			(effects
 				(font
@@ -5151,6 +5172,7 @@
 		(property "Reference" "TP14"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "61c334ee-cb8e-4b59-a990-941fd1f16769")
 			(effects
 				(font
@@ -5261,6 +5283,7 @@
 		(property "Reference" "R29"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0b770d49-41ed-4a9a-9007-2e4bda076aa2")
 			(effects
 				(font
@@ -5419,7 +5442,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U15"
-			(at 0 -2.4 90)
+			(at 3 3 180)
 			(layer "F.SilkS")
 			(uuid "35920508-326c-41bb-b180-37d5053cba5e")
 			(effects
@@ -5784,6 +5807,7 @@
 		(property "Reference" "TP17"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4bd843f8-63a7-44e4-96f0-23737d5791b5")
 			(effects
 				(font
@@ -5894,6 +5918,7 @@
 		(property "Reference" "C14"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98e5209b-4549-4bc3-ab38-77d2b6fc0de1")
 			(effects
 				(font
@@ -6056,6 +6081,7 @@
 		(property "Reference" "U2"
 			(at 0.01829 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ce4fd68a-582f-4e37-a6a0-662479dd5b56")
 			(effects
 				(font
@@ -6381,6 +6407,7 @@
 		(property "Reference" "C2"
 			(at 0 -1.16 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f08a55f-beba-4cfc-9339-134a0d0894ea")
 			(effects
 				(font
@@ -6542,6 +6569,7 @@
 		(property "Reference" "TP11"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "289c3575-29bd-49bd-94e4-7ea85c8e21fa")
 			(effects
 				(font
@@ -6651,7 +6679,7 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J6"
-			(at 0 -5.5 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9863c510-6b6a-427c-88bc-2d9e9cab40c6")
@@ -7238,6 +7266,7 @@
 		(property "Reference" "C24"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "754bd93b-c476-4cb3-95ff-3b6c57c76d8c")
 			(effects
 				(font
@@ -7399,6 +7428,7 @@
 		(property "Reference" "C20"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "42a7fa3e-d552-4e3b-b241-937f00ce7928")
 			(effects
 				(font
@@ -7558,6 +7588,7 @@
 		(property "Reference" "R15"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e9945439-277e-4ef3-ab83-8e83aeee64fa")
 			(effects
 				(font
@@ -7717,6 +7748,7 @@
 		(property "Reference" "C15"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b5fbf081-77cb-4377-b218-31b309985f42")
 			(effects
 				(font
@@ -7878,6 +7910,7 @@
 		(property "Reference" "R11"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "97dec5d2-bb03-460f-8120-546f169abf91")
 			(effects
 				(font
@@ -8039,6 +8072,7 @@
 		(property "Reference" "TP10"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4332fc7a-507d-4804-b8f1-2e423c688269")
 			(effects
 				(font
@@ -8148,7 +8182,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U13"
-			(at 0 -2.4 90)
+			(at 3 -3 180)
 			(layer "F.SilkS")
 			(uuid "19fbced3-9c59-49bf-b4a5-ca819f1c982e")
 			(effects
@@ -8513,6 +8547,7 @@
 		(property "Reference" "C19"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "52954df6-6d13-46a5-8c2f-fa590b936c46")
 			(effects
 				(font
@@ -8671,7 +8706,7 @@
 		(descr "QFN, 56 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/00002142A.pdf#page=40)")
 		(tags "QFN NoLead")
 		(property "Reference" "U10"
-			(at 0 -5.33 135)
+			(at -5.374012 5.374012 180)
 			(layer "F.SilkS")
 			(uuid "87a21ff5-5655-4994-afe5-b86d48a465db")
 			(effects
@@ -9871,6 +9906,7 @@
 		(property "Reference" "TP5"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "afdf9661-ad10-4394-8bbc-98446256a170")
 			(effects
 				(font
@@ -9980,7 +10016,7 @@
 		(descr "HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf")
 		(tags "HDMI Molex Type A")
 		(property "Reference" "J2"
-			(at 1.715 -9 90)
+			(at 1 0 180)
 			(layer "F.SilkS")
 			(uuid "3ede46a7-b727-43cd-9a48-e8f79e5d03f8")
 			(effects
@@ -10637,6 +10673,7 @@
 		(property "Reference" "C27"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "559053cb-9895-4083-b953-57afa1d7bf08")
 			(effects
 				(font
@@ -10795,7 +10832,7 @@
 		(descr "Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf")
 		(tags "Wuerth stacked USB_A")
 		(property "Reference" "J7"
-			(at 0 -11 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "fac3a145-c651-403b-abb1-8e8906bdcd2d")
 			(effects
@@ -11463,6 +11500,7 @@
 		(property "Reference" "C23"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "717cde7c-2313-43cc-addf-af190145694d")
 			(effects
 				(font
@@ -11624,6 +11662,7 @@
 		(property "Reference" "TP12"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "535ad1f9-1860-481c-813c-9313e03a057e")
 			(effects
 				(font
@@ -11926,6 +11965,7 @@
 		(property "Reference" "U4"
 			(at 0.01829 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6c46855c-723b-4816-9510-4e000c584e54")
 			(effects
 				(font
@@ -12251,6 +12291,7 @@
 		(property "Reference" "R18"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e34d96bb-562e-47a8-95fc-3efaea40f73d")
 			(effects
 				(font
@@ -12410,6 +12451,7 @@
 		(property "Reference" "R4"
 			(at 0 -1.17 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "66e9e058-a27d-4b6b-ac86-c3c1fad95773")
 			(effects
 				(font
@@ -12571,6 +12613,7 @@
 		(property "Reference" "TP1"
 			(at 0 -1.448 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d89a029d-42d4-4ad8-a858-4d0457f0dd05")
 			(effects
 				(font
@@ -12862,6 +12905,7 @@
 		(property "Reference" "R20"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "feef1dce-d944-4ac9-b100-7903b9344758")
 			(effects
 				(font
@@ -13023,6 +13067,7 @@
 		(property "Reference" "R21"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "643f9f01-d12f-438d-8afc-1b9fcc3dfd37")
 			(effects
 				(font
@@ -13182,6 +13227,7 @@
 		(property "Reference" "TP13"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "28572358-930a-45cd-a0a7-ff1f20122d14")
 			(effects
 				(font
@@ -13292,6 +13338,7 @@
 		(property "Reference" "R30"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "23c4b3ce-6c66-4b30-89f4-7daf5dec758b")
 			(effects
 				(font
@@ -13453,6 +13500,7 @@
 		(property "Reference" "R25"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0f882df9-2120-4c8a-8fb4-9de9d1ba26aa")
 			(effects
 				(font
@@ -13614,6 +13662,7 @@
 		(property "Reference" "TP9"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f74a662a-cb26-420f-ba49-30c40f913160")
 			(effects
 				(font
@@ -13724,6 +13773,7 @@
 		(property "Reference" "R8"
 			(at 0 -1.17 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "70f5af55-c1c9-476d-8b1f-a0d2eb60f5ab")
 			(effects
 				(font
@@ -13885,6 +13935,7 @@
 		(property "Reference" "R10"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "73c690c5-3f71-4f96-9957-f1a14c991006")
 			(effects
 				(font
@@ -14045,6 +14096,7 @@
 		(property "Reference" "U3"
 			(at 0.01829 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bebbf278-a21a-4acc-95dd-191997c2a8b9")
 			(effects
 				(font
@@ -14370,6 +14422,7 @@
 		(property "Reference" "TP8"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e299964b-2f31-4183-9289-45cdbae56c28")
 			(effects
 				(font
@@ -14480,6 +14533,7 @@
 		(property "Reference" "R1"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4ef4c364-7779-41be-ab52-ce084a431cc9")
 			(effects
 				(font
@@ -14641,6 +14695,7 @@
 		(property "Reference" "R19"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7590252e-6755-4330-9ef7-a13398dceeb7")
 			(effects
 				(font
@@ -14802,6 +14857,7 @@
 		(property "Reference" "C4"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "24609322-2c06-4808-b139-08e16a60223e")
 			(effects
 				(font
@@ -14963,6 +15019,7 @@
 		(property "Reference" "R6"
 			(at 0 -1.17 135)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de4a1b97-9798-44ad-a463-36d8364e983e")
 			(effects
 				(font
@@ -15124,6 +15181,7 @@
 		(property "Reference" "TP15"
 			(at 0 -1.648 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "37397025-fd96-4394-8e9c-11851d756cf5")
 			(effects
 				(font
@@ -15234,6 +15292,7 @@
 		(property "Reference" "TP6"
 			(at -1 -1.448 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0744e367-ad3f-4b20-bf90-31eb5659cbe2")
 			(effects
 				(font
@@ -15344,6 +15403,7 @@
 		(property "Reference" "C5"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f33c99f6-9b4f-48b9-919d-151371ca85ed")
 			(effects
 				(font
@@ -15506,6 +15566,7 @@
 		(property "Reference" "U6"
 			(at 0.01829 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c02e025b-33b0-4a9e-95e8-cc0532b32957")
 			(effects
 				(font
@@ -15831,6 +15892,7 @@
 		(property "Reference" "C17"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "605a2c08-169e-4de9-95e0-c3aa43de65c5")
 			(effects
 				(font
@@ -15992,6 +16054,7 @@
 		(property "Reference" "R5"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9a290def-dd43-410b-ab85-1dfc41c1e743")
 			(effects
 				(font
@@ -16152,7 +16215,7 @@
 		(descr "HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf")
 		(tags "HDMI Molex Type A")
 		(property "Reference" "J1"
-			(at 1.715 -9 90)
+			(at 1 0 180)
 			(layer "F.SilkS")
 			(uuid "9f2eb4e3-4890-4f27-b4c2-94f42aba4941")
 			(effects
@@ -16809,6 +16872,7 @@
 		(property "Reference" "R2"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e7317478-c14f-48a8-b273-802d7cba60b5")
 			(effects
 				(font
@@ -16969,6 +17033,7 @@
 		(property "Reference" "U1"
 			(at 0.01829 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8ca17839-ebc0-41cd-afaf-5342639a74f6")
 			(effects
 				(font
@@ -17294,6 +17359,7 @@
 		(property "Reference" "C26"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a30a8bd1-3821-4b30-874c-a5516fb7f003")
 			(effects
 				(font
@@ -17453,6 +17519,7 @@
 		(property "Reference" "R24"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9b7a124f-a902-467b-b7f1-f60f3bc0a0cb")
 			(effects
 				(font
@@ -17614,6 +17681,7 @@
 		(property "Reference" "C7"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "198d8849-288a-4e2c-9adc-509de78e8e8f")
 			(effects
 				(font
@@ -17775,6 +17843,7 @@
 		(property "Reference" "R12"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ac0c6d18-a829-4e1f-bf1f-521fadb2d0d9")
 			(effects
 				(font
@@ -17935,7 +18004,7 @@
 		(descr "QFN, 28 Pin (http://www.st.com/resource/en/datasheet/stm32f031k6.pdf#page=90)")
 		(tags "QFN NoLead")
 		(property "Reference" "U12"
-			(at 0 -3.33 0)
+			(at 0 3.2 0)
 			(layer "F.SilkS")
 			(uuid "5629a9f7-3c12-4a65-bebd-2af38b53e65d")
 			(effects
@@ -18717,8 +18786,9 @@
 		(descr "USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf")
 		(tags "USON-10 2.5x1.0mm Pitch 0.5mm")
 		(property "Reference" "U7"
-			(at 0.01829 -2.5 0)
+			(at -3 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48c9e4ee-8fef-4e3d-a6cf-8bee2b566378")
 			(effects
 				(font
@@ -19044,6 +19114,7 @@
 		(property "Reference" "R22"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "008cd147-b34f-4d4d-a400-49fa72d13839")
 			(effects
 				(font
@@ -19204,7 +19275,7 @@
 		(descr "QFN, 36 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/36L_QFN_6x6_with_3_7x3_7_EP_Punch_Dimpled_4E_C04-0241A.pdf)")
 		(tags "QFN NoLead")
 		(property "Reference" "U16"
-			(at 0 -4.3 0)
+			(at 4 5.2 0)
 			(layer "F.SilkS")
 			(uuid "2455e3cc-e74f-4200-8988-58c47c3e508f")
 			(effects
@@ -20090,6 +20161,7 @@
 		(property "Reference" "TP2"
 			(at 0 -1.448 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "854df798-47c5-4e06-8f3c-9cd0d99e0bdf")
 			(effects
 				(font
@@ -20200,6 +20272,7 @@
 		(property "Reference" "D1"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3735f169-a202-4589-a59c-1484195a0e3b")
 			(effects
 				(font
@@ -20410,7 +20483,7 @@
 		(descr "Stacked USB A connector http://katalog.we-online.de/em/datasheet/61400826021.pdf")
 		(tags "Wuerth stacked USB_A")
 		(property "Reference" "J8"
-			(at 0 -11 180)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "b65d3160-7d6d-4e01-ba4e-882cccd7c400")
 			(effects
@@ -21078,6 +21151,7 @@
 		(property "Reference" "C18"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f25f133-c648-43ed-bfe9-f6007b307bf2")
 			(effects
 				(font
@@ -21239,6 +21313,7 @@
 		(property "Reference" "R13"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ec41bc49-3650-4c18-9fa3-e667526217d0")
 			(effects
 				(font
@@ -21400,6 +21475,7 @@
 		(property "Reference" "C21"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "24ab541c-f5cc-442d-9497-68ef8bbe0a5e")
 			(effects
 				(font
@@ -21561,6 +21637,7 @@
 		(property "Reference" "TP7"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f51115b4-1762-4f3f-a485-bddfe74111f6")
 			(effects
 				(font
@@ -21670,8 +21747,9 @@
 		(descr "USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf")
 		(tags "USON-10 2.5x1.0mm Pitch 0.5mm")
 		(property "Reference" "U9"
-			(at 0.01829 -2.5 0)
+			(at -3 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "03d950ff-a08b-48da-9ead-81dea82a46aa")
 			(effects
 				(font
@@ -21997,6 +22075,7 @@
 		(property "Reference" "C25"
 			(at 0 -1.850001 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a508fc8-b2b2-4361-9427-a4106ff6b48e")
 			(effects
 				(font
@@ -22347,7 +22426,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U19"
-			(at 0 -2.4 90)
+			(at 0 3.2 180)
 			(layer "F.SilkS")
 			(uuid "ce0ef12a-7d1a-46a7-ad61-e02ac205e0a4")
 			(effects
@@ -22711,8 +22790,9 @@
 		(descr "USON-10 2.5x1.0mm_ Pitch 0.5mm http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf")
 		(tags "USON-10 2.5x1.0mm Pitch 0.5mm")
 		(property "Reference" "U8"
-			(at 0.01829 -2.5 0)
+			(at -3 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ab0014cf-32f2-4361-a6ce-9823172d053f")
 			(effects
 				(font
@@ -23038,6 +23118,7 @@
 		(property "Reference" "R23"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "47aed567-3cc7-4e52-854f-928c9883b003")
 			(effects
 				(font
@@ -23200,6 +23281,7 @@
 		(property "Reference" "U5"
 			(at 0.01829 -2.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0b83a11f-ab87-4f42-91fe-7bb05350a465")
 			(effects
 				(font
@@ -23523,8 +23605,9 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 0 -1.448 0)
+			(at 2.4 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "faa30632-e0f7-450e-a143-4de82556825e")
 			(effects
 				(font
@@ -23635,6 +23718,7 @@
 		(property "Reference" "R16"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5bdd1461-b61d-4582-9462-fbbeaba6065f")
 			(effects
 				(font
@@ -23794,7 +23878,7 @@
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U17"
-			(at 0 -2.4 90)
+			(at 0 -3.2 180)
 			(layer "F.SilkS")
 			(uuid "3bef78bd-690d-4544-90dc-76a70453c4ac")
 			(effects
@@ -25241,7 +25325,7 @@
 		(descr "HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf")
 		(tags "HDMI Molex Type A")
 		(property "Reference" "J3"
-			(at 1.715 9 0)
+			(at 0 0 90)
 			(layer "B.SilkS")
 			(uuid "9cf881f3-9cd3-4d05-871b-0a5467ecb3fb")
 			(effects
@@ -26236,7 +26320,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
-			(at 0 1.16 90)
+			(at -0.2 1.2 90)
 			(layer "B.SilkS")
 			(uuid "39207028-33ec-41fa-92ee-2d55347cdcf4")
 			(effects
@@ -26403,7 +26487,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C28"
-			(at 0 1.16 90)
+			(at -0.2 -1.2 90)
 			(layer "B.SilkS")
 			(uuid "20cea3c1-c54d-4902-818d-125a3829c260")
 			(effects
@@ -27486,9 +27570,9 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C29"
-			(at 0 1.16 90)
+			(at 0.2 1.2 90)
 			(layer "B.SilkS")
-			(uuid "5561a71c-8517-4f18-8356-75540151a78e")
+			(uuid "23a7537e-d1c0-477b-8134-c9e9967302a6")
 			(effects
 				(font
 					(size 1 1)
@@ -27500,7 +27584,7 @@
 		(property "Value" "1u"
 			(at 0 -1.16 90)
 			(layer "B.Fab")
-			(uuid "0a8ac55d-b8d2-44b2-9f14-0ef4f8415cc8")
+			(uuid "d1ca7470-7f81-4278-ab7a-8a24fbd2a00f")
 			(effects
 				(font
 					(size 1 1)
@@ -27513,7 +27597,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f6b63cac-c543-46ec-be53-18c0f6694298")
+			(uuid "60c91b30-05db-4aa4-baae-e638bb0ed008")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27525,7 +27609,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f0b70ee5-8d80-415d-a65d-e226f509daec")
+			(uuid "c11a56f0-9cde-4ad5-90c3-b54cb7b28f37")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27987,7 +28071,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C30"
-			(at 0 1.16 90)
+			(at -0.2 -1.2 270)
 			(layer "B.SilkS")
 			(uuid "5aaa9f5f-d271-43d4-bc11-e1cc48ea3876")
 			(effects
@@ -28617,6 +28701,83 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "a01aa162-74cc-4600-a037-de44e7ffed11")
+	)
+	(gr_text "TX"
+		(at 188 98.9 0)
+		(layer "F.SilkS")
+		(uuid "cfa23f8b-f424-45e0-a32d-5f9d5ac0e85f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RST"
+		(at 188 103.8 0)
+		(layer "F.SilkS")
+		(uuid "d8fde0eb-1585-4437-acbd-02a944a36f4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RX"
+		(at 188.2 96.4 0)
+		(layer "F.SilkS")
+		(uuid "699f6772-8157-4a3d-95d7-228b3511892d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "CLK"
+		(at 178 107.5 45)
+		(layer "F.SilkS")
+		(uuid "9cfa6b68-5588-4399-9d81-39a3bd04762f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "DIO"
+		(at 180.5 107.5 45)
+		(layer "F.SilkS")
+		(uuid "ca1fb2f6-09f2-4042-8a55-ff0680067c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 183 107.5 45)
+		(layer "F.SilkS")
+		(uuid "cdf79976-095a-47d0-b3c6-bf439513ab26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "3V3"
+		(at 185.5 107.5 45)
+		(layer "F.SilkS")
+		(uuid "f6544269-b42d-4258-8810-53f9bbe8eed0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(segment
 		(start 168 117.469239)
