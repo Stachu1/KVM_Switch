@@ -28,6 +28,11 @@
 
 
 (rule "USB copper pour clearance"
-    (condition "A.NetClass == 'USB' && B.Type == 'zone'")
+    (condition "A.NetClass == 'USB' && B.Type == 'zone' && B.Name != 'USB_GND_EXEMPT'")
     (constraint clearance (min 0.5mm))
+)
+
+(rule "USB copper pour clearance"
+    (condition "A.NetClass == 'USB' && B.Type == 'zone' && B.Name == 'USB_GND_EXEMPT'")
+    (constraint clearance (min 0.2mm))
 )
