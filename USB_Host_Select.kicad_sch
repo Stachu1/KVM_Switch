@@ -1142,7 +1142,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KVM_Swtich:TS3USB221AQRSERQ1"
+		(symbol "KVM_Switch:TS3USB221AQRSERQ1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1171,7 +1171,7 @@
 					)
 				)
 			)
-			(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
+			(property "Footprint" "KVM_Switch:TS3USB221AQRSERQ1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5125,7 +5125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KVM_Swtich:TS3USB221AQRSERQ1")
+		(lib_id "KVM_Switch:TS3USB221AQRSERQ1")
 		(at 165.1 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -5158,7 +5158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
+		(property "Footprint" "KVM_Switch:TS3USB221AQRSERQ1"
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)

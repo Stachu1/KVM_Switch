@@ -2963,7 +2963,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:EVQ-Q2K03W"
+	(footprint "KVM_Switch:EVQ-Q2K03W"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "2650f5e5-fa61-43e6-b136-42564685d623")
@@ -3127,7 +3127,7 @@
 			(uuid "fb4e687c-9d3a-4015-bd1d-12675cfb8647")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/library/3d_models/swtich_smd_6x6mm.step"
+		(model "${KIPRJMOD}/library/3d_models/switch_smd_6x6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3461,7 +3461,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:TS3USB221AQRSERQ1"
+	(footprint "KVM_Switch:TS3USB221AQRSERQ1"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "2bb6d5ef-cda0-4bd8-9b4d-afe610a87b46")
@@ -10807,7 +10807,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+	(footprint "KVM_Switch:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "69ca9971-d262-4c34-a6e7-1db43c5b42d0")
@@ -20422,7 +20422,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:USB_A_Wuerth_61400826021_Horizontal_Stacked"
+	(footprint "KVM_Switch:USB_A_Wuerth_61400826021_Horizontal_Stacked"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "dfb9afc0-a1e0-4c1e-b9d7-d701accd3a5a")
@@ -24170,7 +24170,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+	(footprint "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 		(layer "B.Cu")
 		(uuid "0598aec3-2bca-498e-a2a2-2a5647d53643")
 		(at 194 103 180)
@@ -24628,7 +24628,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+	(footprint "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 		(layer "B.Cu")
 		(uuid "10812dc2-aa92-4390-9851-8bdfb04a56c6")
 		(at 194 109 180)
@@ -26583,7 +26583,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+	(footprint "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 		(layer "B.Cu")
 		(uuid "786495bf-4419-4660-8cfe-d2feb3b317d0")
 		(at 194 91 180)
@@ -27041,7 +27041,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+	(footprint "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 		(layer "B.Cu")
 		(uuid "867e93b6-4012-48ce-b9b0-73688f249655")
 		(at 194 115 180)
@@ -28167,7 +28167,7 @@
 			)
 		)
 	)
-	(footprint "KVM_Swtich:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+	(footprint "KVM_Switch:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 		(layer "B.Cu")
 		(uuid "e76a4118-2a51-42be-a9c5-4e20e08a5fbb")
 		(at 194 97 180)

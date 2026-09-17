@@ -429,7 +429,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KVM_Swtich:HD3SS215RTQR"
+		(symbol "KVM_Switch:HD3SS215RTQR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1978,7 +1978,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Dx_SEL LOW => Swtich A to C"
+	(text "Dx_SEL LOW => Switch A to C"
 		(exclude_from_sim no)
 		(at 195.072 136.398 0)
 		(effects
@@ -5497,7 +5497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KVM_Swtich:HD3SS215RTQR")
+		(lib_id "KVM_Switch:HD3SS215RTQR")
 		(at 138.43 95.25 0)
 		(unit 1)
 		(body_style 1)

@@ -1186,7 +1186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KVM_Swtich:TS3USB221AQRSERQ1"
+		(property "Footprint" "KVM_Switch:TS3USB221AQRSERQ1"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

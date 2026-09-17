@@ -127,7 +127,7 @@
 		(uuid "3dc51877-006a-4b29-85e2-149d0a2b9d5e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/swtich_smd_6x6mm.step"
+	(model "${KIPRJMOD}/library/3d_models/switch_smd_6x6mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

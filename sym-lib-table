@@ -1,4 +1,4 @@
 (sym_lib_table
 	(version 7)
-	(lib (name "KVM_Swtich") (type "KiCad") (uri "${KIPRJMOD}/library/symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "KVM_Switch") (type "KiCad") (uri "${KIPRJMOD}/library/symbols.kicad_sym") (options "") (descr ""))
 )
