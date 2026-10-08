@@ -12,7 +12,7 @@
 
 (rule TMDS_HDMI_OUT
 	(condition "A.hasNetClass('TMDS') && A.NetName == '/HDMI_Switch/HDMI_OUT/*'")
-	(constraint length (min 134.8ps) (opt 135.3ps) (max 135.8ps))
+	(constraint length (min 136.0ps) (opt 137.0ps) (max 138.0ps))
 )
 
 
