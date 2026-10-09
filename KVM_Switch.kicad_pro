@@ -656,9 +656,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "mfg",
       "specctra_dsn": "",
-      "step": "",
+      "step": "KVM_Switch.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -669,7 +669,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}_BOM.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
