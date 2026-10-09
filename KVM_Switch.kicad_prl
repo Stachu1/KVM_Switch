@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -151,8 +151,8 @@
           "maximized": true,
           "pos_x": -1928,
           "pos_y": 94,
-          "size_x": 1936,
-          "size_y": 1048
+          "size_x": 1920,
+          "size_y": 1032
         }
       }
     ]
