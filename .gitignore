@@ -46,3 +46,8 @@ mfg/
 
 
 **/*.DS_Store%
+
+# Personal order files (local only)
+**/Order_*.xlsx
+**/DigiKey_Order*.csv
+**/~$*
