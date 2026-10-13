@@ -1,0 +1,2 @@
+cmsis-device-c0 bcc8d94fecb767d1afb53d8c12a8f87ebeb503a2 Wed Jul 8 17:26:33 2026 +0100
+cmsis-core 01d18147527e30ed69ace1cb03b818de78bc7062 Mon Oct 5 15:25:03 2026 +0100
