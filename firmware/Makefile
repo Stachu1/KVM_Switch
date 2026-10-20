@@ -48,9 +48,10 @@ $(BUILD):
 	mkdir $@
 
 # Flash with STM32CubeProgrammer CLI over ST-Link (SWD test points).
-PROGRAMMER ?= STM32_Programmer_CLI
+# Uses the default CubeProgrammer install unless PROGRAMMER is given.
+PROGRAMMER ?= C:/Program Files/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI.exe
 flash: $(BUILD)/$(TARGET).hex
-	$(PROGRAMMER) -c port=SWD mode=UR -w $< -v -rst
+	"$(PROGRAMMER)" -c port=SWD mode=UR -w $< -v -rst
 
 clean:
 	rm -rf $(BUILD)

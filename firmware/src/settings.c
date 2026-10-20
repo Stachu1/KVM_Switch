@@ -1,12 +1,12 @@
-/* Settings stored as an append-only log of 16-byte records in the last
- * flash page. The newest valid record wins; the page is erased only when it
- * is full (128 records), which keeps wear negligible even though the last
- * selected channel is saved on every switch. */
+// Settings stored as an append-only log of 16-byte records in the last
+// flash page. The newest valid record wins; the page is erased only when it
+// is full (128 records), which keeps wear negligible even though the last
+// selected channel is saved on every switch.
 #include <string.h>
 #include "board.h"
 #include "kvm.h"
 
-#define REC_MAGIC  0x4B56u   /* "KV" */
+#define REC_MAGIC  0x4B57u   // bump when defaults or layout change: old records are ignored
 #define REC_SLOTS  (SETTINGS_PAGE_SIZE / sizeof(record_t))
 
 typedef struct {
@@ -34,13 +34,13 @@ void settings_defaults(void)
         .auto_switch = 1,
         .anim = 1,
         .anim_ms = 600,
-        .color = { { 0, 140, 255 }, { 255, 70, 0 } },
+        .color = { { 255, 90, 0 }, { 150, 0, 255 } },   // A orange, B purple
     };
 }
 
 static uint16_t checksum(const settings_t *s)
 {
-    /* Fletcher-16 */
+    // Fletcher-16
     const uint8_t *p = (const uint8_t *)s;
     uint16_t a = 0, b = 0;
     for (uint32_t i = 0; i < sizeof *s; i++) {
@@ -80,7 +80,7 @@ void settings_load(void)
         settings_defaults();
 }
 
-/* ---- flash primitives -------------------------------------------------- */
+// ---- flash primitives --------------------------------------------------
 
 static bool flash_wait(void)
 {

@@ -1,9 +1,9 @@
-/* USART1 on the TX/RX test points: 115200 8N1, interrupt RX, polled TX. */
+// USART1 on the TX/RX test points: 115200 8N1, interrupt RX, polled TX.
 #include "board.h"
 #include "kvm.h"
 
 #define BAUD     115200u
-#define RX_SIZE  64u     /* power of two */
+#define RX_SIZE  64u     // power of two
 
 static volatile uint8_t rx_buf[RX_SIZE];
 static volatile uint8_t rx_head, rx_tail;
@@ -26,12 +26,14 @@ void USART1_IRQHandler(void)
 void uart_init(void)
 {
     RCC->APBENR2 |= RCC_APBENR2_USART1EN;
-    pa_pull(PIN_UART_RX, PULL_UP);      /* idle high with nothing attached */
+    pa_pull(PIN_UART_RX, PULL_UP);      // idle high with nothing attached
     pa_af(PIN_UART_TX, 4);
     pa_af(PIN_UART_RX, 4);
 
     USART1->BRR = (SYSCLK_HZ + BAUD / 2) / BAUD;
-    USART1->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE_RXFNEIE | USART_CR1_UE;
+    // RX FIFO covers the short interrupt-off window while LEDs update.
+    USART1->CR1 = USART_CR1_FIFOEN | USART_CR1_TE | USART_CR1_RE |
+                  USART_CR1_RXNEIE_RXFNEIE | USART_CR1_UE;
     NVIC_EnableIRQ(USART1_IRQn);
 }
 

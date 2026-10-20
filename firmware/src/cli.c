@@ -1,4 +1,4 @@
-/* Line-based command interface on the UART test points. */
+// Line-based command interface on the UART test points.
 #include <string.h>
 #include "board.h"
 #include "kvm.h"
@@ -84,7 +84,7 @@ static bool parse_u32(const char *s, uint32_t *out, uint32_t base)
     return true;
 }
 
-/* "a"/"b" -> 0/1, -1 if neither */
+// "a"/"b" -> 0/1, -1 if neither
 static int parse_ch(const char *s)
 {
     if (s && (!strcmp(s, "a") || !strcmp(s, "A"))) return CH_A;
@@ -92,7 +92,7 @@ static int parse_ch(const char *s)
     return -1;
 }
 
-/* "on"/"off" -> 1/0, -1 if neither */
+// "on"/"off" -> 1/0, -1 if neither
 static int parse_onoff(const char *s)
 {
     if (s && !strcmp(s, "on"))  return 1;
@@ -121,9 +121,11 @@ static bool execute(int argc, char **argv)
         kvm_select(kvm_hdmi(), (uint8_t)ch);
     } else if (!strcmp(cmd, "bright") && parse_u32(a1, &v, 10) && v <= 255) {
         g_set.brightness = (uint8_t)v;
+        leds_flash();
     } else if (!strcmp(cmd, "color") && (ch = parse_ch(a1)) >= 0 &&
                a2 && strlen(a2) == 6 && parse_u32(a2, &v, 16)) {
         g_set.color[ch] = (rgb_t){ (uint8_t)(v >> 16), (uint8_t)(v >> 8), (uint8_t)v };
+        leds_connect((uint8_t)ch);      // preview at that host's end
     } else if (!strcmp(cmd, "auto") && (on = parse_onoff(a1)) >= 0) {
         g_set.auto_switch = (uint8_t)on;
     } else if (!strcmp(cmd, "anim") && (on = parse_onoff(a1)) >= 0) {
@@ -174,7 +176,7 @@ void cli_task(void)
     while ((c = uart_getc()) >= 0) {
         if (c == '\r' || c == '\n') {
             if (len == 0 && c == '\n')
-                continue;               /* second half of CRLF */
+                continue;               // second half of CRLF
             uart_puts("\r\n");
             line[len] = 0;
             process_line();
