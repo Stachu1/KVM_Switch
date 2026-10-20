@@ -4,16 +4,11 @@ A two-computer HDMI + USB KVM switch designed in KiCad.
 
 This is a personal project with the goal of learning more about digital high-speed PCB design: controlled-impedance differential pairs, length matching, layer stackup and keeping signal integrity in check on HDMI and USB lines.
 
-## PCB
-
-![KiCad PCB view](images/render.png)
-
-
-![KiCad PCB view](images/pcb_view.png)
-
 ## Assembled device
 
-![Assembled device](images/assembled.png)
+![Assembled device](images/assembled1.png)
+![Assembled device](images/assembled2.png)
+![KiCad PCB view](images/pcb_view.png)
 
 ## Overview
 
@@ -47,8 +42,3 @@ hardware/   KiCad project (schematics, PCB, custom library, BOM)
 firmware/   Bare-metal firmware for the STM32C031
 images/     Pictures used in this README
 ```
-
-## Tools
-
-- KiCad 10
-- Arm GNU toolchain and make (the copies bundled with STM32CubeIDE work), STM32CubeProgrammer for flashing
