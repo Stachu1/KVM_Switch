@@ -2,13 +2,13 @@
 
 A two-computer HDMI + USB KVM switch designed in KiCad.
 
-This is a personal project with the goal of learning more about digital high-speed PCB design: controlled-impedance differential pairs, length matching, layer stackup and keeping signal integrity in check on HDMI and USB lines.
+This is a personal project with the goal of learning more about digital high-speed PCB design: controlled-impedance differential pairs, length matching, layer stackup and keeping signal integrity on HDMI and USB lines.
 
-## Assembled device
+## Images
 
-![Assembled device](images/assembled1.png)
-![Assembled device](images/assembled2.png)
-![KiCad PCB view](images/pcb_view.png)
+![Assembled with case](images/kvm_swtich_case.png)
+![Assembled pcb](images/assembled1.png)
+![Assembled pcb swtich view](images/assembled2.png)
 
 ## Overview
 
